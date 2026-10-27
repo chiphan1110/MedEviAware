@@ -12,7 +12,7 @@ fi
 if command -v conda >/dev/null 2>&1; then
   # shellcheck disable=SC1091
   source "$(conda info --base)/etc/profile.d/conda.sh"
-  conda activate "${CONDA_ENV_NAME:-verl}"
+  conda activate "${CONDA_ENV_NAME:-vllm}"
 fi
 
 export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0,1,2,3}"
