@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# LLaMA-Factory caches
+hf_cache/
+ms_cache/
+om_cache/
+llamaboard_cache/
+llamaboard_config/
+saves/
+
+# Logs
+logs/
+*/logs/
+*.log
+wandb/
+swanlog/
+
+# Experiment results and checkpoints
+results/
+*/rl-results/
+output/
+outputs/
+checkpoints/
+
+# Data
+processed_data/
