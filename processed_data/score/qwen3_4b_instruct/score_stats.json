@@ -1,73 +1,111 @@
 {
   "overall": {
-    "n_cases": 10,
+    "n_cases": 1010,
     "H": {
-      "n": 10,
-      "mean_p": 0.671,
-      "accuracy": 0.7
+      "n": 1010,
+      "mean_p": 0.5027,
+      "accuracy": 0.5178
     },
     "H+E": {
-      "n": 9,
-      "mean_p": 0.5757,
-      "accuracy": 0.4444
+      "n": 939,
+      "mean_p": 0.5423,
+      "accuracy": 0.5591
     },
     "H+T": {
-      "n": 5,
-      "mean_p": 0.4925,
-      "accuracy": 0.6
+      "n": 643,
+      "mean_p": 0.5574,
+      "accuracy": 0.577
     },
     "H+E+T": {
-      "n": 4,
-      "mean_p": 0.4456,
-      "accuracy": 0.25
+      "n": 572,
+      "mean_p": 0.5768,
+      "accuracy": 0.5997
     },
-    "exam_raises_p": 0.0,
-    "tests_raises_p": 0.4,
-    "all_raises_p": 0.25
+    "exam_raises_p": 0.2215,
+    "tests_raises_p": 0.2473,
+    "all_raises_p": 0.2867
   },
   "by_split": {
     "test": {
-      "n_cases": 2,
+      "n_cases": 201,
       "H": {
-        "n": 2,
-        "mean_p": 1.0,
-        "accuracy": 1.0
+        "n": 201,
+        "mean_p": 0.4877,
+        "accuracy": 0.4975
       },
       "H+E": {
-        "n": 2,
-        "mean_p": 1.0,
-        "accuracy": 1.0
-      },
-      "exam_raises_p": 0.0
-    },
-    "train": {
-      "n_cases": 8,
-      "H": {
-        "n": 8,
-        "mean_p": 0.5887,
-        "accuracy": 0.625
-      },
-      "H+E": {
-        "n": 7,
-        "mean_p": 0.4545,
-        "accuracy": 0.2857
+        "n": 187,
+        "mean_p": 0.5247,
+        "accuracy": 0.5615
       },
       "H+T": {
-        "n": 5,
-        "mean_p": 0.4925,
-        "accuracy": 0.6
+        "n": 128,
+        "mean_p": 0.5409,
+        "accuracy": 0.5391
       },
       "H+E+T": {
-        "n": 4,
-        "mean_p": 0.4456,
-        "accuracy": 0.25
+        "n": 114,
+        "mean_p": 0.5861,
+        "accuracy": 0.5965
       },
-      "exam_raises_p": 0.0,
-      "tests_raises_p": 0.4,
-      "all_raises_p": 0.25
+      "exam_raises_p": 0.1818,
+      "tests_raises_p": 0.2344,
+      "all_raises_p": 0.2982
+    },
+    "train": {
+      "n_cases": 708,
+      "H": {
+        "n": 708,
+        "mean_p": 0.5027,
+        "accuracy": 0.5184
+      },
+      "H+E": {
+        "n": 658,
+        "mean_p": 0.5444,
+        "accuracy": 0.5532
+      },
+      "H+T": {
+        "n": 451,
+        "mean_p": 0.5538,
+        "accuracy": 0.5765
+      },
+      "H+E+T": {
+        "n": 401,
+        "mean_p": 0.5638,
+        "accuracy": 0.5885
+      },
+      "exam_raises_p": 0.2371,
+      "tests_raises_p": 0.2528,
+      "all_raises_p": 0.2793
+    },
+    "val": {
+      "n_cases": 101,
+      "H": {
+        "n": 101,
+        "mean_p": 0.5328,
+        "accuracy": 0.5545
+      },
+      "H+E": {
+        "n": 94,
+        "mean_p": 0.5621,
+        "accuracy": 0.5957
+      },
+      "H+T": {
+        "n": 64,
+        "mean_p": 0.6155,
+        "accuracy": 0.6562
+      },
+      "H+E+T": {
+        "n": 57,
+        "mean_p": 0.6497,
+        "accuracy": 0.6842
+      },
+      "exam_raises_p": 0.1915,
+      "tests_raises_p": 0.2344,
+      "all_raises_p": 0.3158
     }
   },
-  "rows": 56,
-  "mean_letter_mass": 1.0,
-  "rows_low_letter_mass": 0
+  "rows": 12656,
+  "mean_letter_mass": 0.9961,
+  "rows_low_letter_mass": 39
 }
