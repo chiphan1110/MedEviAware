@@ -1,0 +1,51 @@
+{
+    "id": 0,
+    "question": "The mechanism of action of the medication given blocks cell wall synthesis, which of the following was given?",
+    "context": [
+        "A 21-year-old sexually active male complains of fever, pain during urination, and inflammation and pain in the right knee.",
+        "A culture of the joint fluid shows a bacteria that does not ferment maltose and has no polysaccharide capsule.",
+        "The physician orders antibiotic therapy for the patient."
+    ],
+    "context_len": 3,
+    "options": {
+        "A": "Gentamicin",
+        "B": "Ciprofloxacin",
+        "C": "Ceftriaxone",
+        "D": "Trimethoprim"
+    },
+    "answer": "Ceftriaxone",
+    "answer_idx": "C",
+    "explanation": "",
+    "facts": [
+        "1. Patient is a 21-year-old male.",
+        "2. Patient is sexually active.",
+        "3. Patient complains of fever.",
+        "4. Patient complains of pain during urination.",
+        "5. Patient complains of inflammation and pain in the right knee.",
+        "6. Culture of joint fluid shows a bacteria.",
+        "7. Bacteria does not ferment maltose.",
+        "8. Bacteria has no polysaccharide capsule.",
+        "9. Physician orders antibiotic therapy for the patient."
+    ],
+    "patient": {
+        "gender": "Male",
+        "age": "21 years old",
+        "specialties": [
+            "Internal Medicine",
+            "Urology"
+        ],
+        "subspecialties": [
+            "Infectious Disease",
+            "General Urology"
+        ],
+        "specialty_prob": [
+            0.6,
+            0.4
+        ],
+        "subspecialty_prob": [
+            0.6,
+            0.4
+        ],
+        "gpt_specialty": "Urology"
+    }
+}

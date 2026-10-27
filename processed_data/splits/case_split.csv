@@ -1,0 +1,1011 @@
+case_id,split,evidence,specialty
+1,test,exam_only,Pediatrics
+3,test,exam_only,Urology
+4,train,exam+tests,Neurology
+5,train,exam+tests,Internal Medicine
+6,train,exam_only,Internal Medicine
+7,train,exam+tests,Emergency Medicine
+8,train,exam_only,Physical Medicine and Rehabilitation
+9,train,exam_only,Internal Medicine
+13,train,tests_only,Surgery
+14,train,exam+tests,Emergency Medicine
+15,train,exam_only,Psychiatry
+16,train,exam_only,Thoracic Surgery
+17,test,exam+tests,Internal Medicine
+19,train,exam_only,Neurology
+20,train,exam+tests,Emergency Medicine
+21,train,exam+tests,Internal Medicine
+22,test,exam_only,Pediatrics
+23,train,exam+tests,Psychiatry
+24,test,exam+tests,Pediatrics
+25,train,exam+tests,Surgery
+26,train,exam+tests,Preventive Medicine
+27,val,exam+tests,Pediatrics
+28,test,exam+tests,Pediatrics
+29,test,exam_only,Orthopaedic Surgery
+30,val,exam+tests,Obstetrics and Gynecology
+32,train,exam+tests,Emergency Medicine
+33,test,exam+tests,Orthopaedic Surgery
+34,train,exam+tests,Internal Medicine
+35,train,exam_only,Otolaryngology
+36,train,exam+tests,Pediatrics
+37,train,exam+tests,Internal Medicine
+38,val,exam+tests,Emergency Medicine
+40,train,exam+tests,Internal Medicine
+41,val,exam_only,Neurology
+42,val,tests_only,Internal Medicine
+43,train,exam_only,Dermatology
+46,train,exam_only,Otolaryngology
+47,train,exam_only,Internal Medicine
+48,train,tests_only,Allergy and Immunology
+49,test,exam+tests,Otolaryngology
+50,val,exam+tests,Neurology
+52,val,exam_only,Pediatrics
+53,test,exam_only,Anesthesiology
+55,val,exam+tests,Surgery
+56,train,exam+tests,Internal Medicine
+57,train,exam+tests,Urology
+58,train,exam+tests,Neurology
+60,train,exam_only,Internal Medicine
+62,train,exam+tests,Internal Medicine
+63,test,exam_only,Pediatrics
+64,train,exam+tests,Internal Medicine
+65,train,exam+tests,Neurology
+66,train,exam_only,Emergency Medicine
+67,train,exam+tests,Obstetrics and Gynecology
+68,train,tests_only,Internal Medicine
+69,train,exam+tests,Internal Medicine
+70,train,exam_only,Anesthesiology
+71,train,exam+tests,Surgery
+72,train,exam+tests,Orthopaedic Surgery
+73,train,tests_only,Radiology
+75,train,exam+tests,Internal Medicine
+76,train,exam+tests,Urology
+77,train,exam+tests,Neurology
+78,val,exam+tests,Internal Medicine
+79,test,exam_only,Internal Medicine
+80,train,exam+tests,Medical Genetics and Genomics
+82,train,exam+tests,Pediatrics
+83,train,exam+tests,Emergency Medicine
+84,train,exam_only,Neurology
+85,train,exam_only,Obstetrics and Gynecology
+86,val,exam+tests,Pathology
+88,train,exam_only,Surgery
+89,train,exam_only,Dermatology
+92,train,exam_only,Ophthalmology
+93,val,exam+tests,Surgery
+94,test,tests_only,Pediatrics
+95,test,tests_only,Internal Medicine
+96,train,exam+tests,Pediatrics
+97,train,exam+tests,Neurology
+98,test,exam+tests,Emergency Medicine
+100,train,exam_only,Neurology
+101,train,tests_only,Internal Medicine
+103,val,exam_only,Ophthalmology
+105,train,exam_only,Dermatology
+106,train,tests_only,Neurology
+107,train,exam_only,Internal Medicine
+108,train,exam_only,Internal Medicine
+109,train,exam_only,Neurology
+110,test,exam_only,Internal Medicine
+111,train,tests_only,Surgery
+112,train,tests_only,Emergency Medicine
+113,train,exam+tests,Internal Medicine
+115,val,exam_only,Emergency Medicine
+116,val,exam_only,Internal Medicine
+117,test,exam_only,Urology
+118,train,exam+tests,Pediatrics
+119,train,exam_only,Neurology
+120,test,exam_only,Psychiatry
+122,train,exam_only,Emergency Medicine
+123,train,exam+tests,Orthopaedic Surgery
+124,val,exam_only,Internal Medicine
+126,train,exam+tests,Obstetrics and Gynecology
+127,train,exam_only,Pediatrics
+128,train,exam_only,Obstetrics and Gynecology
+129,test,exam_only,Internal Medicine
+130,train,exam+tests,Neurology
+131,test,exam+tests,Internal Medicine
+132,train,exam+tests,Neurology
+133,train,exam+tests,Internal Medicine
+135,train,exam+tests,Neurology
+136,train,exam+tests,Emergency Medicine
+137,train,exam+tests,Pediatrics
+139,train,exam+tests,Pediatrics
+140,val,exam_only,Pediatrics
+141,test,tests_only,Internal Medicine
+142,train,exam+tests,Emergency Medicine
+144,train,exam_only,Internal Medicine
+145,train,exam_only,Dermatology
+146,test,exam+tests,Emergency Medicine
+147,val,exam_only,Otolaryngology
+148,test,exam_only,Emergency Medicine
+149,train,exam+tests,Emergency Medicine
+150,test,exam_only,Internal Medicine
+151,train,exam+tests,Emergency Medicine
+152,train,exam+tests,Emergency Medicine
+154,train,exam_only,Pediatrics
+156,train,exam+tests,Internal Medicine
+157,train,exam+tests,Emergency Medicine
+163,train,tests_only,Internal Medicine
+164,train,exam+tests,Internal Medicine
+166,train,exam+tests,Pediatrics
+167,train,exam+tests,Neurology
+169,train,exam_only,Internal Medicine
+170,test,exam+tests,Pediatrics
+171,train,exam+tests,Neurology
+172,val,tests_only,Internal Medicine
+173,train,exam+tests,Colon and Rectal Surgery
+175,train,exam+tests,Otolaryngology
+176,train,exam_only,Pediatrics
+177,test,exam_only,Neurology
+179,train,exam+tests,Pediatrics
+180,train,exam+tests,Neurology
+181,train,exam_only,Pediatrics
+182,test,exam+tests,Internal Medicine
+183,test,exam+tests,Surgery
+185,train,exam+tests,Obstetrics and Gynecology
+188,train,exam+tests,Emergency Medicine
+191,train,exam+tests,Pediatrics
+192,train,exam_only,Neurology
+193,train,exam+tests,Psychiatry
+195,train,exam+tests,Neurology
+197,train,exam+tests,Obstetrics and Gynecology
+198,test,exam_only,Neurology
+200,train,exam+tests,Internal Medicine
+201,train,exam+tests,Internal Medicine
+202,train,exam_only,Obstetrics and Gynecology
+203,train,exam+tests,Emergency Medicine
+204,train,exam+tests,Internal Medicine
+205,val,exam_only,Internal Medicine
+206,test,exam_only,Internal Medicine
+207,test,exam+tests,Internal Medicine
+208,train,exam+tests,Surgery
+209,train,exam_only,Ophthalmology
+210,train,exam_only,Psychiatry
+211,test,exam+tests,Emergency Medicine
+212,train,exam_only,Internal Medicine
+213,train,exam+tests,Internal Medicine
+214,val,exam+tests,Internal Medicine
+215,train,exam_only,Neurology
+216,train,exam_only,Pediatrics
+217,train,exam+tests,Obstetrics and Gynecology
+218,train,exam_only,Orthopaedic Surgery
+219,test,exam+tests,Internal Medicine
+221,train,exam+tests,Internal Medicine
+222,train,exam+tests,Internal Medicine
+223,train,exam_only,Orthopaedic Surgery
+225,val,exam_only,Internal Medicine
+226,train,exam_only,Emergency Medicine
+227,train,exam+tests,Otolaryngology
+228,test,exam+tests,Internal Medicine
+229,train,exam_only,Internal Medicine
+230,train,exam_only,Dermatology
+231,train,exam_only,Psychiatry
+232,train,exam+tests,Internal Medicine
+233,train,exam+tests,Emergency Medicine
+234,train,exam+tests,Orthopaedic Surgery
+235,val,exam+tests,Emergency Medicine
+236,train,exam+tests,Emergency Medicine
+237,test,exam_only,Dermatology
+238,train,exam+tests,Neurology
+239,train,exam+tests,Emergency Medicine
+241,train,exam+tests,Urology
+242,test,exam_only,Pediatrics
+243,test,exam+tests,Physical Medicine and Rehabilitation
+244,test,exam+tests,Obstetrics and Gynecology
+245,train,exam+tests,Pediatrics
+246,train,exam+tests,Otolaryngology
+247,train,exam+tests,Internal Medicine
+248,val,exam+tests,Medical Genetics and Genomics
+249,train,exam+tests,Internal Medicine
+250,val,exam_only,Dermatology
+251,train,exam_only,Medical Genetics and Genomics
+252,test,exam_only,Neurology
+253,train,exam+tests,Internal Medicine
+254,val,exam+tests,Orthopaedic Surgery
+255,train,exam+tests,Internal Medicine
+256,train,exam_only,Pediatrics
+257,train,exam_only,Neurology
+258,train,exam+tests,Obstetrics and Gynecology
+259,test,exam+tests,Internal Medicine
+260,train,exam_only,Family Medicine
+261,train,exam+tests,Internal Medicine
+262,test,exam+tests,Family Medicine
+264,test,exam_only,Internal Medicine
+265,train,exam_only,Internal Medicine
+266,test,exam+tests,Neurology
+268,test,exam+tests,Internal Medicine
+270,train,exam+tests,Internal Medicine
+271,train,exam+tests,Pediatrics
+272,train,exam+tests,Internal Medicine
+273,train,exam_only,Emergency Medicine
+274,train,exam_only,Pediatrics
+275,train,exam+tests,Otolaryngology
+276,train,exam+tests,Obstetrics and Gynecology
+280,train,exam+tests,Internal Medicine
+282,train,exam_only,Emergency Medicine
+283,test,exam_only,Dermatology
+284,train,exam+tests,Pediatrics
+285,train,exam+tests,Otolaryngology
+286,train,exam+tests,Emergency Medicine
+287,train,exam+tests,Pediatrics
+288,train,exam_only,Internal Medicine
+289,train,tests_only,Neurology
+291,test,exam+tests,Pediatrics
+292,test,exam+tests,Emergency Medicine
+293,train,exam_only,Pediatrics
+294,train,exam+tests,Internal Medicine
+295,train,exam+tests,Internal Medicine
+296,train,exam+tests,Neurology
+299,train,exam+tests,Internal Medicine
+300,train,exam_only,Emergency Medicine
+301,train,exam_only,Neurology
+302,train,exam+tests,Neurology
+303,train,exam+tests,Urology
+304,train,exam+tests,Urology
+308,train,exam_only,Pediatrics
+309,val,exam+tests,Radiology
+310,train,exam+tests,Internal Medicine
+311,train,exam+tests,Obstetrics and Gynecology
+312,val,exam+tests,Internal Medicine
+313,train,exam+tests,Neurology
+314,train,exam_only,Internal Medicine
+315,train,exam_only,Surgery
+316,train,exam+tests,Orthopaedic Surgery
+319,train,exam+tests,Emergency Medicine
+320,train,exam_only,Obstetrics and Gynecology
+322,test,exam+tests,Orthopaedic Surgery
+324,train,exam+tests,Otolaryngology
+325,train,exam+tests,Internal Medicine
+326,train,exam_only,Otolaryngology
+327,train,exam+tests,Emergency Medicine
+328,train,exam+tests,Internal Medicine
+329,train,exam+tests,Orthopaedic Surgery
+331,train,tests_only,Internal Medicine
+332,val,exam_only,Plastic Surgery
+333,train,exam_only,Emergency Medicine
+334,test,exam+tests,Neurology
+335,train,tests_only,Medical Genetics and Genomics
+336,train,exam+tests,Psychiatry
+337,test,exam+tests,Neurology
+339,train,tests_only,Internal Medicine
+340,train,exam_only,Others
+341,test,exam_only,Pediatrics
+342,train,exam+tests,Internal Medicine
+343,train,tests_only,Emergency Medicine
+344,train,tests_only,Internal Medicine
+346,train,exam+tests,Emergency Medicine
+347,train,exam_only,Pediatrics
+348,test,exam_only,Emergency Medicine
+349,train,exam+tests,Pediatrics
+350,train,exam_only,Psychiatry
+351,train,exam+tests,Obstetrics and Gynecology
+353,train,tests_only,Orthopaedic Surgery
+354,train,exam+tests,Orthopaedic Surgery
+356,train,exam+tests,Internal Medicine
+357,test,exam_only,Emergency Medicine
+358,val,exam+tests,Neurology
+359,train,exam+tests,Obstetrics and Gynecology
+360,test,exam+tests,Ophthalmology
+361,test,exam_only,Pediatrics
+362,test,exam_only,Surgery
+363,train,exam_only,Dermatology
+364,test,exam_only,Pediatrics
+365,train,exam+tests,Obstetrics and Gynecology
+366,test,tests_only,Allergy and Immunology
+367,train,exam+tests,Medical Genetics and Genomics
+368,train,exam+tests,Pediatrics
+369,train,exam+tests,Medical Genetics and Genomics
+370,train,tests_only,Psychiatry
+371,train,exam+tests,Internal Medicine
+372,train,exam+tests,Pathology
+373,train,exam+tests,Pediatrics
+374,train,exam+tests,Internal Medicine
+375,train,exam+tests,Internal Medicine
+376,train,exam_only,Otolaryngology
+377,test,exam_only,Medical Genetics and Genomics
+378,train,exam+tests,Internal Medicine
+380,val,exam+tests,Internal Medicine
+381,val,exam+tests,Emergency Medicine
+382,test,exam+tests,Orthopaedic Surgery
+383,test,exam+tests,Obstetrics and Gynecology
+385,train,exam_only,Neurology
+386,train,exam_only,Orthopaedic Surgery
+387,val,exam+tests,Orthopaedic Surgery
+391,train,exam+tests,Internal Medicine
+392,train,exam+tests,Internal Medicine
+394,train,exam_only,Urology
+395,val,exam+tests,Pediatrics
+396,train,exam_only,Pediatrics
+398,train,exam+tests,Pediatrics
+400,train,exam+tests,Internal Medicine
+404,val,exam_only,Dermatology
+405,train,exam+tests,Internal Medicine
+407,val,exam_only,Neurology
+408,train,exam_only,Emergency Medicine
+409,val,exam+tests,Neurology
+410,train,exam_only,Otolaryngology
+411,train,exam_only,Emergency Medicine
+413,train,exam_only,Emergency Medicine
+414,train,exam_only,Medical Genetics and Genomics
+415,train,exam_only,Neurology
+416,test,exam+tests,Emergency Medicine
+417,val,exam+tests,Allergy and Immunology
+418,test,exam+tests,Internal Medicine
+419,train,exam_only,Internal Medicine
+420,test,exam+tests,Obstetrics and Gynecology
+422,train,exam+tests,Internal Medicine
+423,train,exam_only,Pediatrics
+424,train,exam+tests,Internal Medicine
+425,val,exam+tests,Medical Genetics and Genomics
+426,train,exam+tests,Dermatology
+427,train,exam_only,Internal Medicine
+428,train,exam+tests,Pediatrics
+430,train,exam_only,Internal Medicine
+431,train,exam+tests,Neurology
+432,train,exam+tests,Dermatology
+433,test,exam+tests,Internal Medicine
+434,train,exam_only,Neurology
+435,train,exam+tests,Pediatrics
+436,train,exam_only,Emergency Medicine
+437,val,exam+tests,Obstetrics and Gynecology
+438,train,exam+tests,Obstetrics and Gynecology
+439,train,exam_only,Orthopaedic Surgery
+440,val,exam_only,Emergency Medicine
+441,train,exam+tests,Pediatrics
+442,train,exam+tests,Emergency Medicine
+443,train,exam+tests,Emergency Medicine
+445,train,exam+tests,Pediatrics
+446,train,exam+tests,Pathology
+447,test,exam+tests,Internal Medicine
+448,train,exam+tests,Internal Medicine
+449,test,exam+tests,Orthopaedic Surgery
+451,train,exam+tests,Obstetrics and Gynecology
+452,train,exam+tests,Internal Medicine
+454,train,exam_only,Neurology
+456,val,exam+tests,Internal Medicine
+457,test,exam+tests,Emergency Medicine
+458,test,tests_only,Pathology
+459,test,tests_only,Emergency Medicine
+460,test,tests_only,Surgery
+462,test,exam_only,Psychiatry
+464,val,tests_only,Internal Medicine
+465,train,exam_only,Medical Genetics and Genomics
+466,train,exam_only,Psychiatry
+467,train,exam+tests,Neurology
+470,train,exam+tests,Orthopaedic Surgery
+471,train,exam+tests,Internal Medicine
+472,train,exam+tests,Pathology
+473,train,exam+tests,Internal Medicine
+476,train,exam+tests,Emergency Medicine
+477,train,exam_only,Internal Medicine
+478,train,exam+tests,Pediatrics
+479,train,tests_only,Internal Medicine
+480,test,exam+tests,Emergency Medicine
+481,val,exam_only,Obstetrics and Gynecology
+482,train,exam+tests,Orthopaedic Surgery
+483,train,exam+tests,Otolaryngology
+484,test,exam_only,Internal Medicine
+486,train,exam+tests,Emergency Medicine
+487,train,exam_only,Internal Medicine
+488,train,exam_only,Neurology
+490,train,exam+tests,Pediatrics
+491,train,exam_only,Pediatrics
+492,train,exam+tests,Internal Medicine
+493,train,exam+tests,Internal Medicine
+495,train,exam_only,Physical Medicine and Rehabilitation
+496,train,tests_only,Medical Genetics and Genomics
+497,train,tests_only,Obstetrics and Gynecology
+498,train,exam_only,Emergency Medicine
+500,train,exam+tests,Internal Medicine
+501,train,exam+tests,Emergency Medicine
+503,train,tests_only,Orthopaedic Surgery
+505,test,exam+tests,Obstetrics and Gynecology
+506,train,exam+tests,Psychiatry
+507,train,exam+tests,Otolaryngology
+509,train,exam_only,Medical Genetics and Genomics
+511,train,exam_only,Dermatology
+512,train,exam+tests,Internal Medicine
+513,train,exam+tests,Urology
+516,test,tests_only,Neurology
+517,test,tests_only,Dermatology
+518,val,exam+tests,Surgery
+519,val,exam_only,Pediatrics
+520,train,exam_only,Dermatology
+521,train,exam+tests,Pediatrics
+522,test,exam+tests,Urology
+523,train,exam+tests,Internal Medicine
+524,train,exam+tests,Obstetrics and Gynecology
+525,train,exam+tests,Emergency Medicine
+526,test,exam_only,Otolaryngology
+527,test,exam+tests,Otolaryngology
+528,train,exam+tests,Emergency Medicine
+529,train,exam+tests,Internal Medicine
+530,train,exam+tests,Pediatrics
+531,train,exam+tests,Emergency Medicine
+532,train,exam_only,Orthopaedic Surgery
+533,train,exam_only,Internal Medicine
+534,train,exam+tests,Obstetrics and Gynecology
+538,train,exam_only,Internal Medicine
+539,train,exam+tests,Orthopaedic Surgery
+540,train,exam+tests,Obstetrics and Gynecology
+541,train,exam+tests,Emergency Medicine
+543,train,exam+tests,Internal Medicine
+545,train,exam+tests,Neurology
+546,test,exam_only,Psychiatry
+547,train,exam+tests,Pediatrics
+549,test,exam+tests,Psychiatry
+550,test,exam+tests,Urology
+552,train,exam+tests,Allergy and Immunology
+553,train,exam+tests,Pediatrics
+554,train,exam+tests,Pathology
+556,train,exam+tests,Emergency Medicine
+557,train,exam_only,Emergency Medicine
+558,train,exam_only,Psychiatry
+559,train,exam+tests,Internal Medicine
+560,train,exam+tests,Urology
+561,train,exam_only,Internal Medicine
+563,train,exam+tests,Internal Medicine
+565,test,exam+tests,Emergency Medicine
+566,train,exam+tests,Pediatrics
+571,train,exam+tests,Neurology
+572,test,exam+tests,Medical Genetics and Genomics
+573,test,exam+tests,Emergency Medicine
+574,train,exam_only,Medical Genetics and Genomics
+575,test,exam+tests,Emergency Medicine
+576,val,exam_only,Obstetrics and Gynecology
+577,test,exam+tests,Neurology
+579,train,exam_only,Otolaryngology
+580,train,exam_only,Otolaryngology
+582,val,exam_only,Pediatrics
+585,test,exam+tests,Internal Medicine
+586,train,exam+tests,Emergency Medicine
+587,test,tests_only,Emergency Medicine
+588,train,exam+tests,Emergency Medicine
+589,train,exam_only,Internal Medicine
+591,train,exam+tests,Orthopaedic Surgery
+592,train,exam+tests,Internal Medicine
+594,train,exam+tests,Pediatrics
+595,train,exam+tests,Pediatrics
+596,train,exam_only,Pediatrics
+597,train,exam+tests,Pediatrics
+598,val,exam+tests,Emergency Medicine
+599,train,exam+tests,Emergency Medicine
+600,train,exam_only,Emergency Medicine
+601,train,exam+tests,Pediatrics
+602,val,exam_only,Neurology
+603,test,exam+tests,Pediatrics
+604,train,exam+tests,Emergency Medicine
+605,val,exam+tests,Internal Medicine
+606,train,exam+tests,Internal Medicine
+607,train,exam_only,Pediatrics
+609,train,exam+tests,Obstetrics and Gynecology
+610,train,exam+tests,Orthopaedic Surgery
+611,train,exam+tests,Allergy and Immunology
+612,train,exam+tests,Urology
+614,val,exam+tests,Emergency Medicine
+615,train,exam_only,Internal Medicine
+617,test,exam_only,Allergy and Immunology
+618,test,exam+tests,Urology
+621,train,exam+tests,Orthopaedic Surgery
+622,train,tests_only,Internal Medicine
+623,train,exam_only,Preventive Medicine
+624,train,exam_only,Psychiatry
+625,test,exam+tests,Otolaryngology
+626,train,exam_only,Internal Medicine
+628,val,tests_only,Pediatrics
+629,test,exam_only,Obstetrics and Gynecology
+630,train,exam+tests,Pediatrics
+631,train,exam_only,Internal Medicine
+633,test,exam+tests,Psychiatry
+634,val,exam+tests,Otolaryngology
+635,train,exam+tests,Surgery
+636,train,exam+tests,Pediatrics
+637,test,exam_only,Neurology
+639,train,exam+tests,Emergency Medicine
+640,train,exam+tests,Medical Genetics and Genomics
+641,train,exam+tests,Emergency Medicine
+642,train,exam_only,Otolaryngology
+643,train,exam_only,Medical Genetics and Genomics
+644,train,exam_only,Neurology
+645,train,exam_only,Neurology
+646,train,exam+tests,Obstetrics and Gynecology
+647,train,exam+tests,Emergency Medicine
+649,test,exam+tests,Neurology
+651,train,exam_only,Emergency Medicine
+652,test,exam+tests,Orthopaedic Surgery
+653,train,exam_only,Internal Medicine
+654,test,exam_only,Psychiatry
+655,test,exam+tests,Psychiatry
+656,train,exam_only,Internal Medicine
+657,train,exam_only,Pediatrics
+658,train,exam+tests,Internal Medicine
+659,val,tests_only,Internal Medicine
+661,train,exam+tests,Obstetrics and Gynecology
+662,train,tests_only,Dermatology
+663,train,exam+tests,Ophthalmology
+664,test,exam+tests,Orthopaedic Surgery
+665,test,tests_only,Medical Genetics and Genomics
+666,train,exam+tests,Emergency Medicine
+667,train,exam+tests,Obstetrics and Gynecology
+668,train,exam+tests,Medical Genetics and Genomics
+669,train,exam_only,Internal Medicine
+670,test,exam_only,Radiology
+671,train,exam+tests,Orthopaedic Surgery
+672,test,exam+tests,Neurology
+673,train,tests_only,Medical Genetics and Genomics
+674,test,exam+tests,Emergency Medicine
+677,train,exam+tests,Internal Medicine
+678,train,exam_only,Neurology
+679,train,tests_only,Emergency Medicine
+680,train,exam+tests,Emergency Medicine
+681,train,exam_only,Obstetrics and Gynecology
+683,val,exam+tests,Medical Genetics and Genomics
+684,train,exam_only,Internal Medicine
+685,val,exam+tests,Emergency Medicine
+686,test,exam_only,Dermatology
+687,train,exam+tests,Emergency Medicine
+689,train,exam+tests,Otolaryngology
+690,train,tests_only,Obstetrics and Gynecology
+692,train,exam+tests,Urology
+694,test,exam_only,Ophthalmology
+695,train,tests_only,Pediatrics
+696,train,exam+tests,Internal Medicine
+697,train,exam+tests,Otolaryngology
+698,train,exam+tests,Emergency Medicine
+699,train,exam+tests,Internal Medicine
+701,train,exam+tests,Internal Medicine
+702,test,exam_only,Dermatology
+703,train,exam+tests,Medical Genetics and Genomics
+704,test,exam_only,Pediatrics
+706,train,exam+tests,Neurology
+709,train,exam+tests,Psychiatry
+710,train,exam+tests,Emergency Medicine
+711,val,exam_only,Pediatrics
+712,val,exam_only,Emergency Medicine
+713,train,exam+tests,Internal Medicine
+715,train,exam+tests,Medical Genetics and Genomics
+716,train,exam+tests,Pathology
+717,train,exam+tests,Internal Medicine
+718,train,exam+tests,Internal Medicine
+719,train,exam_only,Internal Medicine
+720,train,exam+tests,Emergency Medicine
+721,train,exam_only,Pediatrics
+724,train,exam+tests,Neurology
+725,train,exam+tests,Internal Medicine
+726,train,exam+tests,Internal Medicine
+728,train,exam_only,Pediatrics
+730,train,exam_only,Neurology
+731,val,exam_only,Otolaryngology
+732,train,tests_only,Emergency Medicine
+733,train,exam+tests,Pediatrics
+734,train,tests_only,Urology
+735,train,exam+tests,Obstetrics and Gynecology
+739,train,exam+tests,Urology
+740,train,exam_only,Psychiatry
+741,train,exam_only,Psychiatry
+742,test,exam_only,Neurology
+743,train,exam+tests,Emergency Medicine
+744,train,tests_only,Internal Medicine
+745,train,exam_only,Emergency Medicine
+746,train,exam_only,Obstetrics and Gynecology
+748,train,exam+tests,Surgery
+749,val,exam+tests,Internal Medicine
+751,test,exam+tests,Internal Medicine
+752,test,exam+tests,Otolaryngology
+753,train,exam_only,Neurology
+754,train,exam+tests,Emergency Medicine
+755,train,exam+tests,Internal Medicine
+756,train,exam+tests,Pediatrics
+757,test,tests_only,Internal Medicine
+758,train,exam+tests,Internal Medicine
+759,val,exam_only,Emergency Medicine
+760,train,exam+tests,Obstetrics and Gynecology
+761,train,tests_only,Internal Medicine
+762,train,exam_only,Medical Genetics and Genomics
+763,train,exam_only,Neurology
+764,train,exam_only,Internal Medicine
+765,train,exam_only,Medical Genetics and Genomics
+766,train,exam_only,Obstetrics and Gynecology
+767,train,exam_only,Emergency Medicine
+768,train,exam+tests,Psychiatry
+769,train,exam+tests,Pediatrics
+770,train,exam_only,Internal Medicine
+771,test,exam_only,Neurology
+772,test,exam+tests,Internal Medicine
+773,train,exam+tests,Internal Medicine
+774,val,exam+tests,Internal Medicine
+775,train,tests_only,Orthopaedic Surgery
+777,train,exam_only,Pediatrics
+780,train,exam_only,Neurology
+781,train,exam+tests,Pediatrics
+782,train,exam_only,Emergency Medicine
+783,train,exam+tests,Ophthalmology
+784,val,exam+tests,Internal Medicine
+785,train,exam_only,Psychiatry
+786,train,exam+tests,Orthopaedic Surgery
+787,train,exam_only,Medical Genetics and Genomics
+788,val,exam_only,Emergency Medicine
+789,train,exam_only,Internal Medicine
+790,train,exam+tests,Internal Medicine
+791,train,exam_only,Neurology
+793,train,exam+tests,Neurology
+794,train,exam+tests,Dermatology
+796,train,exam+tests,Internal Medicine
+797,train,exam_only,Emergency Medicine
+798,train,exam+tests,Surgery
+800,train,exam_only,Neurology
+801,val,exam_only,Emergency Medicine
+803,test,exam_only,Internal Medicine
+804,train,exam+tests,Obstetrics and Gynecology
+805,train,exam+tests,Internal Medicine
+806,train,exam+tests,Medical Genetics and Genomics
+807,train,exam_only,Obstetrics and Gynecology
+808,train,exam+tests,Emergency Medicine
+809,test,exam+tests,Emergency Medicine
+812,test,exam+tests,Internal Medicine
+814,train,exam+tests,Neurology
+816,train,exam+tests,Emergency Medicine
+817,test,exam_only,Obstetrics and Gynecology
+818,train,exam_only,Neurology
+819,test,exam+tests,Internal Medicine
+820,test,tests_only,Internal Medicine
+821,train,exam+tests,Obstetrics and Gynecology
+822,val,exam+tests,Obstetrics and Gynecology
+823,test,exam+tests,Pediatrics
+824,train,exam_only,Obstetrics and Gynecology
+825,val,exam_only,Otolaryngology
+826,train,exam_only,Dermatology
+827,train,exam+tests,Internal Medicine
+828,test,exam+tests,Otolaryngology
+829,train,tests_only,Neurology
+830,train,exam+tests,Obstetrics and Gynecology
+832,train,tests_only,Obstetrics and Gynecology
+833,train,exam_only,Pediatrics
+834,train,exam+tests,Pathology
+835,train,exam_only,Internal Medicine
+837,test,exam+tests,Urology
+838,val,exam_only,Dermatology
+840,test,exam_only,Psychiatry
+841,train,exam+tests,Internal Medicine
+842,val,exam+tests,Emergency Medicine
+843,train,exam_only,Neurology
+844,train,exam+tests,Internal Medicine
+845,train,exam+tests,Emergency Medicine
+847,val,exam+tests,Urology
+848,train,tests_only,Medical Genetics and Genomics
+849,train,exam+tests,Internal Medicine
+852,train,exam+tests,Otolaryngology
+853,test,exam+tests,Emergency Medicine
+855,train,tests_only,Physical Medicine and Rehabilitation
+857,train,exam_only,Emergency Medicine
+858,train,exam+tests,Emergency Medicine
+859,test,exam_only,Internal Medicine
+860,train,exam_only,Pediatrics
+861,train,exam_only,Internal Medicine
+862,train,exam+tests,Psychiatry
+864,val,exam+tests,Internal Medicine
+865,train,exam+tests,Emergency Medicine
+866,train,exam_only,Obstetrics and Gynecology
+867,train,exam_only,Medical Genetics and Genomics
+868,train,tests_only,Internal Medicine
+869,train,exam_only,Pediatrics
+870,val,exam+tests,Internal Medicine
+871,train,exam+tests,Internal Medicine
+872,train,exam_only,Internal Medicine
+873,train,exam+tests,Internal Medicine
+874,train,exam_only,Emergency Medicine
+875,train,exam_only,Ophthalmology
+876,train,exam+tests,Internal Medicine
+878,train,exam_only,Urology
+880,train,exam+tests,Internal Medicine
+881,train,exam+tests,Pediatrics
+882,train,exam_only,Pediatrics
+883,test,exam_only,Pediatrics
+885,train,exam_only,Neurology
+886,train,exam_only,Surgery
+888,train,exam+tests,Pediatrics
+889,val,exam+tests,Obstetrics and Gynecology
+890,train,exam+tests,Urology
+891,train,exam_only,Anesthesiology
+892,train,exam_only,Otolaryngology
+893,train,exam+tests,Internal Medicine
+894,train,exam_only,Internal Medicine
+895,test,exam+tests,Emergency Medicine
+896,val,exam+tests,Pediatrics
+898,train,exam_only,Pediatrics
+899,train,exam_only,Obstetrics and Gynecology
+900,test,exam+tests,Pathology
+901,test,exam_only,Neurology
+902,train,exam+tests,Pediatrics
+903,test,exam_only,Internal Medicine
+904,train,exam+tests,Orthopaedic Surgery
+905,test,exam_only,Neurology
+906,train,exam+tests,Urology
+907,train,exam+tests,Emergency Medicine
+909,train,exam_only,Pediatrics
+910,val,exam+tests,Internal Medicine
+911,train,tests_only,Internal Medicine
+914,train,exam_only,Neurology
+915,train,exam+tests,Pediatrics
+916,test,exam+tests,Neurology
+917,train,exam_only,Emergency Medicine
+918,test,exam+tests,Otolaryngology
+919,train,exam+tests,Emergency Medicine
+920,train,tests_only,Internal Medicine
+921,test,exam+tests,Otolaryngology
+922,val,exam+tests,Psychiatry
+923,train,tests_only,Medical Genetics and Genomics
+924,train,exam_only,Surgery
+925,train,exam+tests,Thoracic Surgery
+926,test,exam+tests,Ophthalmology
+927,test,exam+tests,Colon and Rectal Surgery
+929,train,exam_only,Internal Medicine
+930,train,exam+tests,Emergency Medicine
+931,train,exam_only,Medical Genetics and Genomics
+932,train,exam_only,Pediatrics
+933,train,exam+tests,Emergency Medicine
+934,test,exam_only,Internal Medicine
+935,test,exam+tests,Obstetrics and Gynecology
+936,train,exam_only,Pediatrics
+937,train,exam+tests,Internal Medicine
+939,train,exam_only,Neurology
+940,test,exam+tests,Emergency Medicine
+941,train,exam+tests,Physical Medicine and Rehabilitation
+942,train,exam+tests,Internal Medicine
+944,train,exam+tests,Pediatrics
+945,val,exam_only,Orthopaedic Surgery
+946,train,exam_only,Dermatology
+947,test,exam_only,Medical Genetics and Genomics
+948,train,exam_only,Psychiatry
+949,train,exam_only,Medical Genetics and Genomics
+951,train,exam+tests,Internal Medicine
+953,train,exam+tests,Internal Medicine
+954,test,exam_only,Neurology
+955,train,exam+tests,Obstetrics and Gynecology
+957,train,exam+tests,Ophthalmology
+958,train,exam+tests,Urology
+959,train,exam+tests,Emergency Medicine
+961,train,exam+tests,Pediatrics
+964,test,exam+tests,Orthopaedic Surgery
+965,val,exam+tests,Obstetrics and Gynecology
+966,train,exam+tests,Psychiatry
+969,test,exam_only,Physical Medicine and Rehabilitation
+970,train,tests_only,Internal Medicine
+971,test,exam_only,Psychiatry
+972,train,exam_only,Pediatrics
+973,test,exam+tests,Orthopaedic Surgery
+974,train,exam+tests,Pathology
+975,test,exam+tests,Internal Medicine
+976,train,exam+tests,Surgery
+977,train,exam_only,Pediatrics
+978,train,exam_only,Neurology
+979,train,exam_only,Emergency Medicine
+980,test,exam_only,Emergency Medicine
+981,test,exam+tests,Otolaryngology
+982,test,exam+tests,Emergency Medicine
+983,train,exam_only,Internal Medicine
+984,test,tests_only,Pathology
+985,test,exam+tests,Internal Medicine
+986,train,tests_only,Medical Genetics and Genomics
+987,train,exam_only,Internal Medicine
+988,train,exam+tests,Internal Medicine
+989,train,tests_only,Internal Medicine
+990,train,exam+tests,Pediatrics
+991,train,exam_only,Dermatology
+995,train,exam+tests,Pediatrics
+996,train,exam_only,Neurological Surgery
+997,train,exam+tests,Internal Medicine
+1001,train,exam+tests,Pediatrics
+1002,test,exam+tests,Internal Medicine
+1004,train,exam+tests,Pediatrics
+1005,test,exam+tests,Emergency Medicine
+1006,train,exam_only,Internal Medicine
+1008,train,exam+tests,Internal Medicine
+1009,train,exam+tests,Internal Medicine
+1010,train,exam_only,Pediatrics
+1011,test,exam+tests,Medical Genetics and Genomics
+1012,train,exam_only,Pediatrics
+1013,train,exam+tests,Family Medicine
+1014,test,exam_only,Internal Medicine
+1015,train,exam+tests,Emergency Medicine
+1017,train,exam+tests,Internal Medicine
+1018,train,exam+tests,Internal Medicine
+1019,val,exam_only,Internal Medicine
+1020,test,exam+tests,Neurology
+1021,train,exam+tests,Emergency Medicine
+1022,train,exam_only,Allergy and Immunology
+1023,val,exam_only,Allergy and Immunology
+1024,test,exam+tests,Internal Medicine
+1025,test,exam+tests,Orthopaedic Surgery
+1026,train,exam_only,Orthopaedic Surgery
+1027,train,exam+tests,Pediatrics
+1028,train,exam_only,Orthopaedic Surgery
+1029,train,exam+tests,Emergency Medicine
+1031,train,tests_only,Internal Medicine
+1032,test,exam_only,Family Medicine
+1033,train,exam+tests,Pediatrics
+1034,train,exam+tests,Internal Medicine
+1035,test,exam+tests,Otolaryngology
+1036,train,exam_only,Pediatrics
+1037,train,tests_only,Internal Medicine
+1038,val,exam+tests,Otolaryngology
+1039,train,tests_only,Obstetrics and Gynecology
+1041,train,exam_only,Neurology
+1042,train,exam+tests,Orthopaedic Surgery
+1043,train,exam_only,Pediatrics
+1044,train,exam+tests,Internal Medicine
+1045,test,exam_only,Surgery
+1046,val,exam+tests,Pediatrics
+1048,train,exam+tests,Neurology
+1050,train,exam_only,Psychiatry
+1051,train,exam+tests,Emergency Medicine
+1055,train,exam+tests,Neurology
+1056,train,tests_only,Pediatrics
+1057,train,exam_only,Dermatology
+1058,train,exam_only,Medical Genetics and Genomics
+1059,train,exam_only,Internal Medicine
+1060,train,exam+tests,Surgery
+1061,train,exam+tests,Obstetrics and Gynecology
+1062,train,exam_only,Pediatrics
+1063,train,exam+tests,Urology
+1064,train,exam+tests,Pediatrics
+1065,train,exam+tests,Internal Medicine
+1066,train,exam+tests,Dermatology
+1067,val,exam+tests,Emergency Medicine
+1068,test,exam+tests,Pediatrics
+1069,train,exam+tests,Internal Medicine
+1070,train,exam_only,Otolaryngology
+1071,train,exam_only,Neurology
+1072,train,exam_only,Dermatology
+1073,train,exam+tests,Neurology
+1074,test,exam+tests,Ophthalmology
+1075,train,tests_only,Emergency Medicine
+1076,train,exam_only,Psychiatry
+1077,train,exam_only,Internal Medicine
+1079,train,exam_only,Medical Genetics and Genomics
+1080,test,exam+tests,Otolaryngology
+1081,train,exam_only,Emergency Medicine
+1082,train,exam+tests,Emergency Medicine
+1083,train,exam_only,Pediatrics
+1084,test,exam+tests,Medical Genetics and Genomics
+1085,test,exam+tests,Orthopaedic Surgery
+1086,train,exam_only,Internal Medicine
+1087,train,exam_only,Emergency Medicine
+1089,train,exam+tests,Emergency Medicine
+1090,train,exam_only,Orthopaedic Surgery
+1091,val,exam+tests,Dermatology
+1093,val,exam+tests,Neurology
+1094,train,exam+tests,Internal Medicine
+1095,train,exam+tests,Internal Medicine
+1096,test,exam+tests,Internal Medicine
+1097,val,exam+tests,Otolaryngology
+1100,train,exam+tests,Neurology
+1101,test,exam+tests,Pediatrics
+1102,test,exam_only,Neurology
+1103,test,exam_only,Emergency Medicine
+1104,val,exam+tests,Pediatrics
+1108,train,exam+tests,Pediatrics
+1109,train,exam+tests,Medical Genetics and Genomics
+1110,train,exam+tests,Neurology
+1111,train,exam_only,Internal Medicine
+1112,test,exam_only,Emergency Medicine
+1113,train,exam_only,Neurology
+1114,train,exam_only,Emergency Medicine
+1115,test,exam_only,Dermatology
+1116,test,exam+tests,Internal Medicine
+1117,train,exam_only,Neurology
+1118,train,exam+tests,Emergency Medicine
+1121,train,exam_only,Orthopaedic Surgery
+1123,train,exam+tests,Emergency Medicine
+1125,train,exam_only,Pediatrics
+1127,train,exam+tests,Obstetrics and Gynecology
+1128,train,exam+tests,Internal Medicine
+1129,train,exam+tests,Internal Medicine
+1131,train,exam+tests,Internal Medicine
+1133,train,exam+tests,Emergency Medicine
+1134,test,exam_only,Pediatrics
+1136,train,exam+tests,Internal Medicine
+1137,train,exam+tests,Internal Medicine
+1138,train,exam_only,Internal Medicine
+1140,train,exam+tests,Internal Medicine
+1141,test,exam+tests,Dermatology
+1142,test,exam+tests,Internal Medicine
+1143,train,exam_only,Orthopaedic Surgery
+1144,train,exam+tests,Internal Medicine
+1145,val,exam+tests,Internal Medicine
+1146,test,exam_only,Pediatrics
+1147,test,exam_only,Internal Medicine
+1148,train,exam+tests,Emergency Medicine
+1149,val,exam_only,Dermatology
+1150,test,exam+tests,Emergency Medicine
+1152,val,exam+tests,Obstetrics and Gynecology
+1153,train,exam_only,Neurology
+1155,test,exam_only,Dermatology
+1156,train,exam+tests,Neurology
+1158,train,tests_only,Otolaryngology
+1159,train,exam_only,Pediatrics
+1161,test,exam_only,Pediatrics
+1163,train,exam+tests,Internal Medicine
+1164,val,exam+tests,Urology
+1165,val,exam+tests,Family Medicine
+1167,test,exam+tests,Dermatology
+1168,train,exam+tests,Internal Medicine
+1169,train,exam+tests,Obstetrics and Gynecology
+1170,train,exam+tests,Neurology
+1171,train,exam+tests,Neurology
+1172,test,exam+tests,Internal Medicine
+1174,train,exam_only,Pediatrics
+1176,train,exam+tests,Urology
+1177,train,exam+tests,Obstetrics and Gynecology
+1178,train,exam+tests,Obstetrics and Gynecology
+1179,train,tests_only,Internal Medicine
+1181,train,exam_only,Pediatrics
+1182,train,exam_only,Psychiatry
+1183,test,exam_only,Orthopaedic Surgery
+1184,test,exam+tests,Colon and Rectal Surgery
+1186,train,exam+tests,Pediatrics
+1187,train,exam+tests,Pediatrics
+1188,train,exam_only,Obstetrics and Gynecology
+1189,val,exam+tests,Internal Medicine
+1191,train,exam+tests,Emergency Medicine
+1192,val,exam_only,Pediatrics
+1193,train,exam+tests,Surgery
+1194,train,exam+tests,Emergency Medicine
+1197,train,exam+tests,Medical Genetics and Genomics
+1198,train,exam+tests,Pediatrics
+1199,test,exam+tests,Orthopaedic Surgery
+1200,train,exam_only,Emergency Medicine
+1202,test,exam+tests,Pediatrics
+1203,train,exam_only,Pathology
+1205,test,exam+tests,Preventive Medicine
+1206,train,exam+tests,Dermatology
+1207,test,exam+tests,Emergency Medicine
+1208,val,exam+tests,Internal Medicine
+1209,train,exam+tests,Internal Medicine
+1211,train,exam_only,Emergency Medicine
+1212,test,exam+tests,Psychiatry
+1213,train,exam_only,Neurology
+1214,train,exam_only,Urology
+1215,train,exam+tests,Internal Medicine
+1216,test,exam+tests,Dermatology
+1217,train,exam+tests,Otolaryngology
+1220,val,exam_only,Internal Medicine
+1221,train,exam+tests,Pediatrics
+1222,test,exam+tests,Internal Medicine
+1223,val,tests_only,Internal Medicine
+1224,train,exam+tests,Internal Medicine
+1227,test,exam_only,Emergency Medicine
+1229,train,exam_only,Neurology
+1230,val,exam_only,Internal Medicine
+1232,train,exam_only,Internal Medicine
+1233,train,exam+tests,Internal Medicine
+1234,val,tests_only,Internal Medicine
+1235,train,exam_only,Internal Medicine
+1236,test,exam_only,Emergency Medicine
+1237,train,exam+tests,Obstetrics and Gynecology
+1238,train,exam_only,Urology
+1239,train,exam_only,Obstetrics and Gynecology
+1241,train,exam+tests,Pediatrics
+1242,train,exam_only,Dermatology
+1244,train,exam_only,Pediatrics
+1245,test,exam+tests,Urology
+1246,train,exam+tests,Pediatrics
+1247,train,exam+tests,Urology
+1249,val,exam_only,Emergency Medicine
+1253,train,exam_only,Pediatrics
+1254,train,exam_only,Neurology
+1255,test,exam+tests,Internal Medicine
+1256,train,exam_only,Pediatrics
+1257,train,exam+tests,Neurology
+1258,val,exam_only,Internal Medicine
+1259,train,exam_only,Dermatology
+1261,train,exam_only,Pediatrics
+1262,train,exam_only,Ophthalmology
+1263,train,exam_only,Neurology
+1266,test,exam_only,Dermatology
+1267,train,exam_only,Neurology
+1269,train,exam+tests,Emergency Medicine
+1270,train,exam+tests,Emergency Medicine
+1271,test,exam+tests,Thoracic Surgery

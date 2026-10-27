@@ -1,0 +1,35 @@
+{
+  "n_cases": 1272,
+  "n_kept": 1010,
+  "drop_reasons": {
+    "general_knowledge_question": 165,
+    "no_exam_or_tests": 74,
+    "too_little_history": 12,
+    "answer_in_history": 5,
+    "no_facts": 3,
+    "too_few_facts": 3
+  },
+  "question_types": {
+    "patient": 1101,
+    "general": 165,
+    "null": 6
+  },
+  "kept_with_exam_and_tests": 572,
+  "kept_exam_only": 367,
+  "kept_tests_only": 71,
+  "mean_facts_per_kept_case": {
+    "history": 6.13,
+    "exam": 4.04,
+    "tests": 2.01
+  },
+  "facts_cut_off": 43,
+  "facts_rule_fixed": 155,
+  "api": {
+    "model": "gpt-4.1",
+    "prompt_hash": "736dba39",
+    "calls_this_run": 1246,
+    "cache_hits": 20,
+    "prompt_tokens_this_run": 672653,
+    "completion_tokens_this_run": 24748
+  }
+}

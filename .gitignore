@@ -48,5 +48,5 @@ output/
 outputs/
 checkpoints/
 
-# Data
-processed_data/
+# Data (processed_data/ is committed; keep MIMIC-derived DiagBench text out of git)
+processed_data/raw/diagbench/

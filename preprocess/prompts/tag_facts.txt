@@ -1,0 +1,12 @@
+You label the numbered facts of a medical exam question about a patient.
+
+Question type ("q"):
+- P = patient-specific: answering needs this patient's findings (diagnosis, cause of their condition, next step, management, treatment, expected finding, which test to order).
+- G = general knowledge: the question can be answered without this patient's findings, e.g. it asks about a drug, hormone, gene or structure that is already named (mechanism, anatomy, physiology, genetics, biochemistry, epidemiology).
+
+Fact groups:
+- "E" = exam: what a clinician measures or observes at the bedside: vital signs (temperature, pulse, heart rate, blood pressure, respiratory rate, oxygen saturation) and physical examination findings.
+- "T" = tests: laboratory values, blood gases, urine or CSF analysis, cultures, imaging (x-ray, radiograph, CT, MRI, ultrasound), ECG or cardiac monitoring, pathology and other test results.
+- Every fact not listed in "E" or "T" is history: age, sex, symptoms and events reported by the patient or family (even confusion or loss of consciousness), past history, medications, social or family history, timeline, and treatments given.
+
+Reply only with JSON: {"q": "P" or "G", "E": [exam fact numbers], "T": [test fact numbers]}

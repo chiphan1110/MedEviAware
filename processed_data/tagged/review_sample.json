@@ -1,0 +1,759 @@
+[
+  {
+    "case_id": 32,
+    "question": "Which of the following is the most likely cause of this patient's symptoms?",
+    "history": [
+      "A 55-year-old man comes to the emergency department.",
+      "He has a dry cough and severe chest pain beginning that morning.",
+      "Two months ago, he was diagnosed with inferior wall myocardial infarction.",
+      "He was treated with stent implantation of the right coronary artery.",
+      "He has a history of hypertension and hypercholesterolemia.",
+      "His medications include aspirin, clopidogrel, atorvastatin, and enalapril."
+    ],
+    "exam": [
+      "His temperature is 38.5°C (101.3°F).",
+      "His pulse is 92/min.",
+      "His respirations are 22/min.",
+      "His blood pressure is 130/80 mm Hg.",
+      "Cardiac examination shows a high-pitched scratching sound best heard while sitting upright and during expiration.",
+      "The remainder of the examination shows no abnormalities."
+    ],
+    "tests": [
+      "An ECG shows diffuse ST elevations.",
+      "Serum studies show a troponin I of 0.2 ng/mL (N < 0.01)."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 34,
+    "question": "Of the following organisms, infection with which one is most consistent with her symptoms?",
+    "history": [
+      "Patient is 22-year old active duty soldier.",
+      "Patient presents with complaints of intense fatigue, fevers, abdominal pain, and a nonproductive cough.",
+      "Symptoms began a few days ago.",
+      "Patient returned from a tour of duty in Malawi and Mozambique four weeks ago.",
+      "Patient endorses sleeping outside, using minimal bug spray, and swimming in rivers during her tour."
+    ],
+    "exam": [
+      "On physical exam, patient's temperature is 101.5, and she appears exhausted.",
+      "Patient has a hive-like rash scattered over her body.",
+      "Abdominal exam is notable for hepatosplenomegaly.",
+      "Lung exam is notable for scattered crackles."
+    ],
+    "tests": [
+      "CBC with diff is remarkable for marked eosinophilia.",
+      "Patient has an elevated IgE."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 37,
+    "question": "What is the most likely diagnosis?",
+    "history": [
+      "Patient is a 31-year-old male.",
+      "Patient has a 2-day history of watery diarrhea.",
+      "Patient's diarrhea began 8 days after his arrival from Africa.",
+      "None of the other members of his family became ill.",
+      "Patient reports symptoms of malaise, anorexia, and abdominal cramps.",
+      "Patient denies tenesmus, urgency, and bloody diarrhea.",
+      "Intravenous fluids are started.",
+      "Stool sample is sent to the lab."
+    ],
+    "exam": [
+      "Patient's temperature is 98.6°F (37°C).",
+      "Patient's respiratory rate is 15/min.",
+      "Patient's pulse is 107/min.",
+      "Patient's blood pressure is 90/68 mm Hg.",
+      "Physical examination is within normal limits."
+    ],
+    "tests": [
+      "Stool sample is negative for any ova/parasites, blood cells, or pus cells."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 40,
+    "question": "Which of the following is the most appropriate next step in management?\"",
+    "history": [
+      "A 36-year-old woman comes to the physician because of fatigue for 4 months.",
+      "She is unable to do her chores and complains of excessive sleepiness during the day.",
+      "She has generalized itching.",
+      "She has not had abdominal pain, fever, or weight loss.",
+      "She has had chronic low back pain for 6 years.",
+      "Her current medications include acetaminophen and vitamin supplements."
+    ],
+    "exam": [
+      "Examination shows scratch marks over the trunk.",
+      "The remainder of the examination shows no abnormalities."
+    ],
+    "tests": [
+      "Laboratory studies show: Hemoglobin 13.2 g/dL.",
+      "Laboratory studies show: Leukocyte count 8,300/mm3.",
+      "Laboratory studies show: Platelet count 280,000/mm3.",
+      "Laboratory studies show: ESR 32 mm/h.",
+      "Laboratory studies show: Serum Glucose 89 mg/dL.",
+      "Laboratory studies show: Creatinine 0.7 mg/dL.",
+      "Laboratory studies show: TSH 4.8 μU/ml.",
+      "Laboratory studies show: Bilirubin Total 1.4 mg/dL.",
+      "Laboratory studies show: Direct 0.9 mg/dL.",
+      "Laboratory studies show: Alkaline phosphatase 480 U/L.",
+      "Laboratory studies show: Aspartate aminotransferase 62 U/L.",
+      "Laboratory studies show: Alanine aminotransferase 32 U/L.",
+      "Laboratory studies show: Total cholesterol 288 mg/dL.",
+      "Laboratory studies show: HDL-cholesterol 57 mg/dL.",
+      "Laboratory studies show: LDL-cholesterol 189 mg/dL.",
+      "Laboratory studies show: Triglycerides 212 mg/dL.",
+      "Laboratory studies show: γ-Glutamyl transferase 92 U/L (N = 5–50).",
+      "Laboratory studies show: Antimitochondrial antibody (AMA) positive.",
+      "Laboratory studies show: Antinuclear antibody (ANA) positive.",
+      "Urinalysis shows no abnormalities.",
+      "Ultrasound of the abdomen shows gallbladder sludge."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 111,
+    "question": "Which of the following statements describing the patient’s current state is most accurate?",
+    "history": [
+      "A 70-year-old man was first evaluated for an enlarging neck mass.",
+      "The man had complaints of night sweats, fever, and weight loss.",
+      "The patient was started on a CODOX-M/IVAC chemotherapy regime.",
+      "The physician noted a marked improvement.",
+      "The physician was concerned about a common complication of chemotherapy.",
+      "The patient was prescribed rasburicase in response to this complication."
+    ],
+    "exam": [],
+    "tests": [
+      "Excisional biopsy confirmed the diagnosis of Burkitt lymphoma."
+    ],
+    "rule_fixed": [
+      "Excisional biopsy confirmed the diagnosis of Burkitt lymphoma."
+    ],
+    "cut_off": []
+  },
+  {
+    "case_id": 118,
+    "question": "Based on the description of these patients symptoms and current treatment regime, which of the following categories describes the severity of this child’s symptoms?",
+    "history": [
+      "An 8-year-old girl is brought by her mother to her pediatrician’s office for a follow-up visit.",
+      "She was diagnosed with asthma about 4 years ago and has been on medications ever since.",
+      "She came into the doctor’s office about a month ago with an escalation of her symptoms.",
+      "She told her doctor that she has been struggling to breathe almost every single day.",
+      "This difficulty increased when she played outdoors with her friends.",
+      "She said that she used to wake up at least 3 times a week from sleep to use her inhaler.",
+      "She uses a short-acting β-agonist inhaler to control her symptoms.",
+      "At the previous visit, her doctor had started her on a small dose of fluticasone (inhaled) as well as a long-acting β-agonist inhaler.",
+      "She has some improvement in her symptoms."
+    ],
+    "exam": [
+      "On physical examination, she doesn’t seem to be in distress.",
+      "Currently, the lungs are clear on auscultation."
+    ],
+    "tests": [
+      "Her forced expiratory volume in one second is about 70% of the predicted value."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 129,
+    "question": "Laboratory studies show: | Hemoglobin 13.5 g/dL | Leukocyte count 9,520/mm3 | Platelet count 853,000/mm3 | Serum | Na+ 136 mEq/L | K+ 3.7 mEq/L | Cl- 96 mEq/L | Ca2+ 11.0 mg/dL | HCO3- 25 mEq/L | Glucose 102 mg/dL | Creatinine 1.0 mg/dL | Uric acid 10.5 mg/dL | Further evaluation of this patient is most likely to show which of the following?",
+    "history": [
+      "Patient is a 50-year-old African-American woman.",
+      "Patient has right elbow pain for the past 12 hours.",
+      "Pain is currently at 7 out of 10 in intensity.",
+      "Patient has not had any trauma to the right elbow.",
+      "Patient also reports general malaise.",
+      "Patient had a miscarriage at the age of 37 years.",
+      "Patient had carpal tunnel syndrome one year ago.",
+      "Patient was treated with a volar splint for carpal tunnel syndrome.",
+      "Patient was diagnosed with thrombophlebitis three months ago.",
+      "Patient was treated with ibuprofen and compression therapy for thrombophlebitis.",
+      "Patient runs 5 km (3.1 miles) per week.",
+      "Patient works as an accountant.",
+      "Patient drinks 1–2 glasses of wine on weekends.",
+      "Patient is 171 cm (5 ft 7 in) tall.",
+      "Patient weighs 70 kg (154 lbs).",
+      "Patient's BMI is 23.9 kg/m2."
+    ],
+    "exam": [
+      "Patient's pulse is 110/min.",
+      "Patient's blood pressure is 130/80 mm Hg.",
+      "Patient's temperature is 38.3°C (101°F).",
+      "On physical examination, the skin above patient's right elbow is erythematous and severely tender to palpation."
+    ],
+    "tests": [],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 141,
+    "question": "Which of the following is most likely associated with the cause of this patient's symptoms?",
+    "history": [
+      "A 67-year-old man presents to his primary care physician.",
+      "He has been feeling increasingly short of breath.",
+      "After retirement he has been going on daily morning walks with his wife.",
+      "Over the last year he feels that his endurance has decreased.",
+      "His medical history is significant for well-controlled hypertension.",
+      "His medical history is otherwise unremarkable.",
+      "He worked in a variety of industries throughout his life."
+    ],
+    "exam": [],
+    "tests": [
+      "Testing demonstrates decreased forced vital capacity (FVC).",
+      "Testing demonstrates a normal forced expiratory volume (FEV) to FVC ratio.",
+      "Pathology demonstrates changes primarily in the upper lobes.",
+      "Pathology demonstrates macrophages can be seen with dark round ingested particles."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 181,
+    "question": "What is the best next step in terms of managing this patient?",
+    "history": [
+      "A 1-day-old boy is brought to the emergency room by his parents.",
+      "He was delivered at home via vaginal birth with no complications.",
+      "The mom received minimal prenatal care.",
+      "The mom wanted the most natural process for her child.",
+      "The mom reports that he has been relatively healthy.",
+      "He gets a little fussy when he feeds.",
+      "These episodes self-resolve after he curls up his legs."
+    ],
+    "exam": [
+      "A physical examination demonstrates a baby in acute distress.",
+      "Subcostal retractions and cyanosis at the distal extremities are present.",
+      "A 5/6 systolic ejection murmur is heard at the left upper sternal border."
+    ],
+    "tests": [],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 253,
+    "question": "Which of the following is the most likely diagnosis?",
+    "history": [
+      "A 75-year-old man comes to the physician.",
+      "He has a 6-month history of fatigue, weight loss, and abdominal pain.",
+      "He drinks 2 oz of alcohol on the weekends.",
+      "He does not smoke.",
+      "He previously worked in a factory that produces plastic pipes."
+    ],
+    "exam": [
+      "Abdominal examination shows right upper quadrant tenderness.",
+      "The liver edge is palpable 2 cm below the ribs."
+    ],
+    "tests": [
+      "A liver biopsy specimen shows pleomorphic spindle cells.",
+      "The spindle cells express PECAM-1 on their surface."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 276,
+    "question": "Which of the following is the most appropriate next step in management?\"",
+    "history": [
+      "A 35-year-old woman is gravida 3, para 2, at 37 weeks' gestation.",
+      "She feels well.",
+      "She did not follow up with her gynecologist on a regular basis due to a busy work schedule.",
+      "Pregnancy and delivery of her first two children were uncomplicated."
+    ],
+    "exam": [
+      "Her blood pressure was 127/75 mm Hg at her initial obstetrics appointment.",
+      "Her temperature is 37.2°C (99°F).",
+      "Her pulse is 90/min.",
+      "Her blood pressure is 145/95 mm Hg.",
+      "Pelvic examination shows a uterus consistent in size with a 37-week gestation.",
+      "Physical examination shows 2+ edema in the lower extremities.",
+      "After four hours of observation, her vital signs are unchanged."
+    ],
+    "tests": [
+      "Urinalysis shows: Blood negative, Protein 3+, RBC 1–2/hpf, RBC casts negative."
+    ],
+    "rule_fixed": [
+      "Her blood pressure was 127/75 mm Hg at her initial obstetrics appointment."
+    ],
+    "cut_off": []
+  },
+  {
+    "case_id": 285,
+    "question": "What physical finding would suggest involvement of the nerve in its course through the parotid gland?",
+    "history": [
+      "A 73-year-old woman presents to the emergency department with swelling in her left neck.",
+      "The onset of the swelling was a few months ago.",
+      "The woman has lost 6.8 kg (15.0 lb) over the same duration.",
+      "The woman denies any fever, night sweats or itching.",
+      "Surgery is planned to remove the tumor while trying to preserve a nerve that could be involved.",
+      "The woman has a past medical history of diabetes, hypertension, and hyperlipidemia."
+    ],
+    "exam": [
+      "Physical examination reveals a painless swelling in front of her left ear.",
+      "There is painless lymphadenopathy below the ear."
+    ],
+    "tests": [
+      "Biopsy of the lymph nodes reveals mucoepidermoid carcinoma of the parotid gland."
+    ],
+    "rule_fixed": [
+      "Biopsy of the lymph nodes reveals mucoepidermoid carcinoma of the parotid gland."
+    ],
+    "cut_off": []
+  },
+  {
+    "case_id": 296,
+    "question": "Which of the following is the most appropriate next step in management?",
+    "history": [
+      "Patient is a 20-year-old woman.",
+      "Patient was brought to the emergency department by her boyfriend.",
+      "Patient has right arm and leg weakness, numbness, and tingling.",
+      "Symptoms have been resolving gradually.",
+      "Symptoms started 4 hours ago after an argument with her boyfriend during which she slapped and kicked him.",
+      "Patient has been limping and cannot use her right arm.",
+      "Patient has never had similar symptoms in the past.",
+      "Patient has a history of genital herpes and trichotillomania."
+    ],
+    "exam": [
+      "Patient is alert and oriented.",
+      "Physical examination shows upper and lower face symmetry and normal speech.",
+      "Patient has 5/5 strength in all extremities and 5/5 right ankle plantar flexion when lying down.",
+      "Patient has 4/5 strength in the right arm and leg when ambulating.",
+      "Patient cannot stand on her toes when asked.",
+      "Patient has 2+ deep tendon reflexes bilaterally.",
+      "Patient has normal proprioception, light touch sensation, and two-point discrimination in all extremities.",
+      "Patient has a negative Spurling test."
+    ],
+    "tests": [
+      "CT of the head without contrast shows no abnormalities."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 313,
+    "question": "What is the next step in management?",
+    "history": [
+      "Patient is 72 years old.",
+      "Patient has a history of diabetes, dyslipidemia, and hypertension.",
+      "Patient presented to the emergency department with sudden-onset right-sided facial paresthesia, word-finding difficulty, and lightheadedness.",
+      "Patient was at a restaurant, in general good health, enjoying a dinner with friends when the 1st symptoms started.",
+      "Patient takes atorvastatin, lisinopril, hydrochlorothiazide, and a multivitamin every day.",
+      "Review of symptoms was negative.",
+      "Symptoms spontaneously resolved after 5 minutes.",
+      "In the course of evaluation, his aphasia recurred for 3 minutes.",
+      "Symptom recurrence prompted his hospital admission for inpatient care."
+    ],
+    "exam": [
+      "Vital signs included: blood pressure of 132/80 mm Hg, heart rate of 86/min, respiratory rate of 20/min, and oxygen saturation of 99% on room air."
+    ],
+    "tests": [
+      "Laboratory results included: Hemoglobin 11.3 g/dL, Hematocrit 33%, WBC count 9,800/mm3, Platelet count 247,000/mm3, International normalized ratio (INR) 1.1, Prothrombin time (PT) 11.5 seconds, Partial thromboplastin time (PTT) 32 seconds.",
+      "Electrocardiogram (ECG) and head computed tomography (CT) scan were normal.",
+      "Duplex ultrasound scan shows 70–89% stenosis in the left carotid artery and 50% in the right.",
+      "Brain magnetic resonance imaging (MRI) scan was negative for areas of ischemia or intracranial hemorrhage."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 351,
+    "question": "Which of the following is the most appropriate next step in management?",
+    "history": [
+      "Patient is a 26-year-old woman.",
+      "Patient has had progressively worsening episodic pelvic pain for 2 years.",
+      "Pain starts a few days before her menstrual period and lasts about 10 days.",
+      "Patient has tried taking ibuprofen, but her symptoms do not improve.",
+      "Patient has had regular 29-day menstrual intervals since menarche at the age of 11 years.",
+      "Menstrual periods last for 5–7 days.",
+      "First day of patient's last menstrual period was 2 weeks ago.",
+      "Patient is sexually active with her boyfriend.",
+      "Patient has noticed that intercourse is often painful.",
+      "Patient and her boyfriend use condoms inconsistently."
+    ],
+    "exam": [
+      "Vital signs are within normal limits.",
+      "Pelvic examination shows a normal vagina and cervix.",
+      "Bimanual examination shows a normal-sized uterus and no palpable adnexal masses."
+    ],
+    "tests": [
+      "Urine pregnancy test is negative."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 543,
+    "question": "Which of the following autoantibodies is most likely to be present in this patient?\"",
+    "history": [
+      "A 40-year-old woman comes to the physician for a follow-up examination.",
+      "She says she has felt fatigued for about 3 months.",
+      "She does not have enough energy for her job as a physician's assistant and often has to lie down and rest during shifts.",
+      "She no longer adheres to her usual exercise routine because of exhaustion.",
+      "During this time, she has noticed that her stools are sometimes pale and foul smelling.",
+      "She also has generalized itching.",
+      "The patient does not have abdominal pain, fever, or weight loss.",
+      "She takes levothyroxine for hypothyroidism.",
+      "She has smoked one pack of cigarettes weekly for 20 years."
+    ],
+    "exam": [
+      "Physical examination shows no abnormalities."
+    ],
+    "tests": [
+      "Laboratory studies show: Hemoglobin 14.1 g/dL, Leukocyte count 7,200/mm3, Erythrocyte sedimentation rate 26 mm/h, Serum Thyroid-stimulating hormone 4.2 μU/ml, Bilirubin Total 1.7 mg/dL, Direct 1.0 mg/dL, Alkaline phosphatase 370 U/L, Aspartate aminotransferase 80 U/L, Alanine aminotransferase 46 U/L, Cholesterol 320 mg/dL, Gamma-glutamyl transferase 98 U/L (N = 5–50).",
+      "Magnetic resonance cholangiopancreatography shows no gallstones and no evidence of extrahepatic biliary obstruction.",
+      "Liver biopsy shows nonsuppurative destructive cholangitis with lymphocytic infiltration of portal areas and periductal granulomas."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 654,
+    "question": "Which of the following is the most likely diagnosis?",
+    "history": [
+      "A 28-year-old woman comes to the physician with her mother.",
+      "She has a 1-week history of feeling unusually energetic.",
+      "The mother describes her state as “hyper”.",
+      "She often paces around her room.",
+      "She has not slept during this period.",
+      "She had similar episodes 2 months and 5 months ago.",
+      "For the past 8 months, she has believed she is a famous singer.",
+      "She believes she is going on a world tour next year.",
+      "She does not have a partner and has only a few friends.",
+      "She was working as a dental technician until 6 months ago.",
+      "She started to hear voices telling her to quit 6 months ago.",
+      "She has not held a job since then.",
+      "She does not use illicit drugs."
+    ],
+    "exam": [
+      "Vital signs are within normal limits.",
+      "Physical and neurological examinations show no abnormalities.",
+      "On mental status examination, her speech is pressured.",
+      "She suddenly stops talking in the middle of sentences and does not finish them.",
+      "She occasionally directs her attention to empty corners in the room, as if she were listening to someone."
+    ],
+    "tests": [],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 703,
+    "question": "Which of the following chromosomes most likely contains the gene mutation responsible for this patient's symptoms?",
+    "history": [
+      "An 11-year-old male is brought to his pediatrician.",
+      "He has had many lung infections throughout childhood.",
+      "He has recently been experiencing floating foul smelling diarrhea.",
+      "He is prescribed enzymes and vitamin supplementation tablets."
+    ],
+    "exam": [
+      "Physical exam shows nasal polyps and nail clubbing."
+    ],
+    "tests": [
+      "Current sputum samples show oxidase positive, non-lactose fermenting gram-negative rods.",
+      "These rods produce a blue-green pigment."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 725,
+    "question": "Which of the following is the next best step in the management of this patient?",
+    "history": [
+      "A 50-year-old woman visited her primary care practitioner.",
+      "She had generalized weakness, lightheadedness, and fatigability for the past month.",
+      "She also had epigastric pain, heartburn, and a sensation of a lump in her throat.",
+      "Her family history is irrelevant.",
+      "She occasionally takes over-the-counter medicines to cope with the heartburn.",
+      "She received iron and vitamin B12 supplementation."
+    ],
+    "exam": [
+      "Physical examination is unremarkable, except for pale skin.",
+      "Her pulse was 120/min."
+    ],
+    "tests": [
+      "Her medical history is significant for a Pap smear that reported ASCUS.",
+      "This was followed up with a cervical biopsy negative for malignancy.",
+      "Her hemoglobin was found to be 11 g/dL."
+    ],
+    "rule_fixed": [
+      "Her medical history is significant for a Pap smear that reported ASCUS.",
+      "This was followed up with a cervical biopsy negative for malignancy."
+    ],
+    "cut_off": []
+  },
+  {
+    "case_id": 762,
+    "question": "Which of the following techniques would most likely identify the cause of this patient’s presentation?",
+    "history": [
+      "An 8-year-old boy is brought to the pediatrician’s office with his mother for a routine check-up.",
+      "He was born at 39 weeks gestation via spontaneous vaginal birth.",
+      "He is up to date on all vaccines and has met most of developmental milestones.",
+      "The mother has some concerns with regards to his overall health.",
+      "He is shorter than his classmates.",
+      "He seems less developed physically than his older brother and sister when they were his age.",
+      "The boy’s teacher has some concerns regarding his learning capability not being at the level of his peers.",
+      "His height and weight are at the 10th and 15th percentile respectively."
+    ],
+    "exam": [
+      "He has a heart rate of 90/min.",
+      "He has a respiratory rate of 22/min.",
+      "He has a blood pressure of 110/65 mm Hg.",
+      "He has a temperature of 37.0°C (98.6°F).",
+      "At physical exam the child appears cheerful, well developed, and well nourished.",
+      "He is small for his age.",
+      "He has upslanting palpebral fissures.",
+      "He has a flat occiput.",
+      "He has low set ears.",
+      "He has a flat nose."
+    ],
+    "tests": [],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 774,
+    "question": "Which of the following is the most appropriate next step in diagnosis?\"",
+    "history": [
+      "A 68-year-old man comes to the physician because of constipation and decreased appetite during the past several months.",
+      "In the past 2 weeks, he has also noticed an increasing frequency of urination.",
+      "He has not had any dysuria or flank pain.",
+      "He has a history of hypertension.",
+      "He has a history of calcium pyrophosphate crystal arthritis.",
+      "He has a history of alcoholic cirrhosis.",
+      "Current medications include hydrochlorothiazide.",
+      "Current medications include rifaximin.",
+      "Current medications include lactulose.",
+      "Current medications include naproxen as needed for the joint pain.",
+      "He quit drinking 5 years ago.",
+      "He does not smoke cigarettes."
+    ],
+    "exam": [
+      "His vital signs are within normal limits.",
+      "Physical examination shows decreased bowel sounds but is otherwise unremarkable."
+    ],
+    "tests": [
+      "Serum studies show creatinine 1.1 mg/dL.",
+      "Serum studies show calcium 11.8 mg/dL.",
+      "Serum studies show phosphorus 2.1 mg/dL.",
+      "Serum studies show magnesium 1.6 mg/dL.",
+      "Serum studies show total protein 6 g/dL.",
+      "Serum studies show albumin 3.1 g/dL.",
+      "Serum studies show AST 53 U/L.",
+      "Serum studies show ALT 43 U/L."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 823,
+    "question": "Which of the following is the most likely underlying pathology?",
+    "history": [
+      "An 11-year-old girl presents to her pediatrician.",
+      "She has complaints of headache and rapid leg fatigue with exercise."
+    ],
+    "exam": [
+      "Her HR is 77.",
+      "Her BP in left arm is 155/100.",
+      "Her RR is 14.",
+      "Her SpO2 is 100%.",
+      "Her T is 37.0 C.",
+      "On palpation, her left dorsalis pedis pulse is delayed as compared to her left radial pulse.",
+      "Her lower extremities feel slightly cool."
+    ],
+    "tests": [
+      "Blood pressure obtained on the left lower extremity is 120/80."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 835,
+    "question": "Which of the following is the best next step in management?",
+    "history": [
+      "After some research she conducted on her own, she has been exercising and following a low-fat, low-salt diet for the past 3 months.",
+      "Her past medical history includes laparoscopic cholecystectomy for acute cholecystitis 2 years previously.",
+      "Her mother and father have hypertension.",
+      "Her father had myocardial infarction at the age of 68 years.",
+      "She takes no medications and denies smoking.",
+      "She drinks 3 glasses of wine a week."
+    ],
+    "exam": [
+      "A 49-year-old Caucasian woman presents to your office for elevated blood pressure.",
+      "She is a nurse and checks her blood pressure regularly while working in the wards.",
+      "She presents with readings ranging between 163/101 and 156/94 mm Hg.",
+      "Her blood pressure in the office after more than 10 minutes of rest was 153/89 mm Hg in her left arm and 145/90 mm Hg in her right arm.",
+      "A review of her medical record reveals that her blood pressure was 142/92 mm Hg at her visit 1 year ago."
+    ],
+    "tests": [],
+    "rule_fixed": [
+      "A 49-year-old Caucasian woman presents to your office for elevated blood pressure.",
+      "She is a nurse and checks her blood pressure regularly while working in the wards.",
+      "She presents with readings ranging between 163/101 and 156/94 mm Hg.",
+      "A review of her medical record reveals that her blood pressure was 142/92 mm Hg at her visit 1 year ago."
+    ],
+    "cut_off": []
+  },
+  {
+    "case_id": 870,
+    "question": "What is the most appropriate management of this patient’s hyponatremia?",
+    "history": [
+      "A 72-year-old man presents to the emergency department.",
+      "He has a history of hypertension and hyperlipidemia.",
+      "He has three days of fever, cough, and shortness of breath.",
+      "He is admitted to the hospital on empiric antibiotics."
+    ],
+    "exam": [
+      "His temperature is 101.3 deg F (38.5 deg C).",
+      "His pulse is 106/min.",
+      "His blood pressure is 148/92 mmHg.",
+      "His respiratory rate is 24/min.",
+      "Crackles are auscultated on the right lower lobe."
+    ],
+    "tests": [
+      "Chest radiograph demonstrates right lower lobe opacities concerning for consolidation.",
+      "His sodium level is 118 mEq/L."
+    ],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 901,
+    "question": "Which of the following is the most appropriate next step in the management of this patient?",
+    "history": [
+      "Patient is a 5-month-old male infant.",
+      "Parents brought him to the physician for evaluation of progressive enlargement of head circumference.",
+      "Patient had an episode of tonsillitis 3 months ago, treated with penicillin.",
+      "Patient was born at term by lower segment transverse cesarean section because of transverse lie.",
+      "Patient has met all developmental milestones.",
+      "Patient's immunizations are up-to-date.",
+      "Patient is at 50th percentile for length.",
+      "Patient is at 50th percentile for weight."
+    ],
+    "exam": [
+      "Patient is at 95th percentile for head circumference.",
+      "Patient appears well-nourished.",
+      "Patient's temperature is 37°C (98.6°F).",
+      "Patient's pulse is 120/min.",
+      "Patient's blood pressure is 90/60 mm Hg.",
+      "Physical examination shows a tense anterior fontanelle.",
+      "Patient's eyes deviate inferiorly.",
+      "Patient's eyelids are retracted."
+    ],
+    "tests": [],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 919,
+    "question": "The most appropriate next step in management is administration of which of the following?",
+    "history": [
+      "A 25-year-old man is brought to the emergency department with chest pain.",
+      "The chest pain began 90 minutes ago.",
+      "His roommate says he has not slept within the past 24 hours.",
+      "He has been taking pills to help him study longer for his upcoming national dental board exam."
+    ],
+    "exam": [
+      "His temperature is 38.9°C (102.2°F).",
+      "His pulse is 115/min.",
+      "His blood pressure is 160/102 mmHg.",
+      "His pupil size is 7 mm bilaterally.",
+      "The lungs are clear to auscultation."
+    ],
+    "tests": [
+      "On examination, he is diaphoretic, extremely agitated, and attempts to remove his IV lines and ECG leads."
+    ],
+    "rule_fixed": [
+      "On examination, he is diaphoretic, extremely agitated, and attempts to remove his IV lines and ECG leads."
+    ],
+    "cut_off": []
+  },
+  {
+    "case_id": 942,
+    "question": "Which of the following medications is first-line therapy to slow disease progression?",
+    "history": [
+      "A 46-year-old woman presents to her primary care provider with pain in both of his hands and wrists.",
+      "She notes that it is hard for her to prepare breakfast or wash dishes in the morning due to stiffness.",
+      "It seems to subsides later in the day.",
+      "She also complains of a constant fatigue and unintentional weight loss during the last few months.",
+      "The past medical history is significant for hypertension.",
+      "She takes captopril and aspirin daily, and occasional ibuprofen for the pain in her hands.",
+      "Her mother developed similar symptoms in her hands resulting in hand deformity."
+    ],
+    "exam": [
+      "The blood pressure is 140/90 mm Hg, heart rate is 67/min, respiratory rate is 13/min, and temperature is 37.0°C (98.6°F).",
+      "Physical examination shows redness, edema, and tenderness on palpation at the metacarpophalangeal and proximal interphalangeal joints of both hands."
+    ],
+    "tests": [
+      "The blood tests show the following findings:",
+      "Red blood cell count 3.3 million/mm3",
+      "C-reactive protein 3.9 mg/L",
+      "Anti-cyclic citrullinated peptide 45 μ/mL."
+    ],
+    "rule_fixed": [],
+    "cut_off": [
+      "Hb 12.1 mg/dL",
+      "Leukocyte count 10,101/mm3",
+      "ESR 48 mm/h"
+    ]
+  },
+  {
+    "case_id": 947,
+    "question": "Which of the following enzymes is deficient in this patient?",
+    "history": [
+      "A 6-month-old girl is brought to the hospital by her parents.",
+      "Her parents say that she has not been eating well over the last two months.",
+      "Her abdomen has grown larger."
+    ],
+    "exam": [
+      "Physical exam shows a thin female infant.",
+      "Physical exam reveals an enlarged liver.",
+      "Physical exam reveals a palpable spleen.",
+      "Eye exam reveals a red spot on the retina.",
+      "She has an intact muscle tone.",
+      "She has intact reflexes."
+    ],
+    "tests": [],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 948,
+    "question": "This patient's presentation can be best explained by intoxication with a substance that acts at which of the following receptors?",
+    "history": [
+      "A 24-year-old female was brought to the ED from a nearby nightclub by the local police.",
+      "The patient had been exhibiting aggressive and violent behavior for the past hour.",
+      "A friend accompanying the patient reported that the patient had smoked marijuana approximately one hour ago.",
+      "The friend reported that the marijuana \"seemed different\".",
+      "The patient had never had this kind of reaction to marijuana use in the past."
+    ],
+    "exam": [
+      "On examination, the patient was combative with slurred speech and active visual hallucinations.",
+      "Eye examination showed prominent vertical nystagmus."
+    ],
+    "tests": [],
+    "rule_fixed": [],
+    "cut_off": []
+  },
+  {
+    "case_id": 1143,
+    "question": "Which of the following nerves is most likely injured in this patient?",
+    "history": [
+      "Patient is 58 years old.",
+      "Patient underwent right radical mastectomy with lymph node dissection 3 weeks ago.",
+      "Surgery went well with no complications.",
+      "Patient has undergone physical therapy which has not been effective.",
+      "Patient started to notice brief periods of painful shoulder instability, especially while opening or closing doors."
+    ],
+    "exam": [
+      "On physical examination, normal active and passive range of motion in the right shoulder.",
+      "Strength is 5 out of 5 in all muscles of the right shoulder and upper extremity.",
+      "Sensation is intact.",
+      "When patient is asked to push against the wall, right shoulder blade moves backward (see image)."
+    ],
+    "tests": [],
+    "rule_fixed": [],
+    "cut_off": []
+  }
+]
