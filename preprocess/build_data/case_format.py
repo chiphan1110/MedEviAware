@@ -14,7 +14,7 @@ FACT_SET_GROUPS = {
     "H+T": ("history", "tests"),
     "H+E+T": ("history", "exam", "tests"),
 }
-OPTION_ORDERS = ("orig", "rev")
+OPTION_ORDERS = ("rot0", "rot1", "rot2", "rot3")   # rotation k shows original option i+k at position i
 
 
 def evidence_type(case: dict[str, Any]) -> str:
@@ -45,9 +45,14 @@ def render_patient_info(case: dict[str, Any], groups: tuple[str, ...]) -> str:
 
 
 def reorder_options(options: dict[str, str], order: str) -> list[tuple[str, str, str]]:
-    """Return (shown_letter, original_letter, text) in the requested order."""
+    """Return (shown_letter, original_letter, text) for rotation order "rotK".
+
+    Across rot0..rot3 every option appears once at every position, so averaging the four
+    orders cancels any preference the model has for a letter or position.
+    """
     original = sorted(options)
-    shown = original if order == "orig" else original[::-1]
+    k = int(order.removeprefix("rot")) % len(original)
+    shown = original[k:] + original[:k]
     return [(new, old, options[old]) for new, old in zip(original, shown)]
 
 

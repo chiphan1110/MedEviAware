@@ -11,7 +11,7 @@ Behavior:
   options, and record the probability of the gold letter plus how much mass the letters had
 - write per-row predictions to predictions.jsonl as they finish (predicted letter, correct or not,
   letter probabilities), so an interrupted run resumes
-- average the two option orders per (case, fact set) on the original letters and write
+- average the option orders per (case, fact set) on the original letters and write
   scores.jsonl: p (chance of the gold answer) and pred (most likely original letter) per fact set
 - write score_stats.json: mean p and accuracy per fact set and split, how often exam / tests raise
   p, and how many rows had little probability on the option letters (a format warning)

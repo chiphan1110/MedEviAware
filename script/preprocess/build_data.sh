@@ -64,6 +64,6 @@ if run_step 3; then
     --split-csv "${PROCESSED_DIR}/splits/case_split.csv" \
     --system-prompt-file preprocess/prompts/score_system.txt \
     --output-jsonl "${PROCESSED_DIR}/score/score_prompts.jsonl" \
-    --orders orig,rev \
+    --orders rot0,rot1,rot2,rot3 \
     2>&1 | tee "${LOG_DIR}/03_build_score_prompts.log"
 fi

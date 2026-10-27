@@ -9,7 +9,8 @@ Behavior:
 - use only cases listed in the split CSV
 - for each case, build a prompt for every fact set it has: H, H+E, H+T, H+E+T
   (exam-only cases get H and H+E, tests-only cases get H and H+T)
-- show the options in each order from --orders (orig, rev) to average out letter bias
+- show the options in each order from --orders (rot0..rot3: every option once at every
+  position) to average out letter and position bias
 - store the shown->original letter map and the gold letter as shown, so the scoring step can
   read the probability of the correct option from the model's next-token logprobs
 """
