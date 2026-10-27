@@ -34,6 +34,16 @@ EXTRA_EVAL_ARGS="${EXTRA_EVAL_ARGS:-}"
 mkdir -p "${LOG_DIR}"
 cd "${ROOT_DIR}"
 
+# Fail fast if the vLLM server is not up or does not serve API_MODEL
+if ! MODELS_JSON="$(curl -sf --noproxy '*' "${BASE_URL}/models")"; then
+  echo "No vLLM server at ${BASE_URL}. Start it with script/eval/host_model.sh and wait for 'Application startup complete'." >&2
+  exit 1
+fi
+if [[ "${MODELS_JSON}" != *"\"id\":\"${API_MODEL}\""* ]]; then
+  echo "Server at ${BASE_URL} does not serve '${API_MODEL}'. It serves: ${MODELS_JSON}" >&2
+  exit 1
+fi
+
 declare -a ARGS=(
   --prompts-jsonl "${PROMPTS_JSONL}"
   --out-dir "${OUT_DIR}"

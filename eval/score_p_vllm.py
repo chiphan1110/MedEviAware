@@ -9,7 +9,8 @@ Behavior:
 - send every row as a chat request asking for 1 token with the top --top-logprobs logprobs
 - read the probabilities of the option letters from the first token, renormalise them over the
   options, and record the probability of the gold letter plus how much mass the letters had
-- write per-row results to raw_rows.jsonl as they finish, so an interrupted run resumes
+- write per-row predictions to predictions.jsonl as they finish (predicted letter, correct or not,
+  letter probabilities), so an interrupted run resumes
 - average the two option orders per (case, fact set) on the original letters and write
   scores.jsonl: p (chance of the gold answer) and pred (most likely original letter) per fact set
 - write score_stats.json: mean p and accuracy per fact set and split, how often exam / tests raise
@@ -39,7 +40,7 @@ LOW_MASS = 0.5
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Score P(correct) per case and fact set via a vLLM server.")
     parser.add_argument("--prompts-jsonl", type=Path, required=True, help="Scoring prompts from step 03.")
-    parser.add_argument("--out-dir", type=Path, required=True, help="Writes raw_rows.jsonl, scores.jsonl, score_stats.json.")
+    parser.add_argument("--out-dir", type=Path, required=True, help="Writes predictions.jsonl, scores.jsonl, score_stats.json.")
     parser.add_argument("--api-model", type=str, required=True, help="Model name as served by vLLM (--served-model-name).")
     parser.add_argument(
         "--base-url",
@@ -95,6 +96,7 @@ def score_row(client: OpenAI, args: argparse.Namespace, row: dict[str, Any]) -> 
     top = content[0].top_logprobs if content else []
     letters = sorted(row["letter_map"])
     probs, mass, top_token = letter_probs(top, letters)
+    pred = max(probs, key=probs.get)
     return {
         "row_id": row["row_id"],
         "case_id": row["case_id"],
@@ -102,12 +104,16 @@ def score_row(client: OpenAI, args: argparse.Namespace, row: dict[str, Any]) -> 
         "evidence": row["evidence"],
         "fact_set": row["fact_set"],
         "order": row["order"],
+        "output": top_token,
+        "pred_letter": pred,
         "gold_letter": row["gold_letter"],
+        "correct": pred == row["gold_letter"],
+        "pred_original": row["letter_map"][pred],
+        "gold_original": row["letter_map"][row["gold_letter"]],
+        "p_gold": round(probs[row["gold_letter"]], 4),
+        "probs": {k: round(v, 4) for k, v in probs.items()},
+        "letter_mass": round(mass, 4),
         "letter_map": row["letter_map"],
-        "probs": probs,
-        "p_gold": probs[row["gold_letter"]],
-        "letter_mass": mass,
-        "top_token": top_token,
     }
 
 
@@ -169,7 +175,7 @@ def summarize(cases: list[dict[str, Any]], raw_rows: list[dict[str, Any]]) -> di
 def main() -> None:
     args = parse_args()
     args.out_dir.mkdir(parents=True, exist_ok=True)
-    raw_path = args.out_dir / "raw_rows.jsonl"
+    raw_path = args.out_dir / "predictions.jsonl"
 
     rows = load_jsonl(args.prompts_jsonl)
     if args.limit_cases > 0:
