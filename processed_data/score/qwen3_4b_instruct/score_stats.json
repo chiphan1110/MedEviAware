@@ -1,0 +1,73 @@
+{
+  "overall": {
+    "n_cases": 10,
+    "H": {
+      "n": 10,
+      "mean_p": 0.671,
+      "accuracy": 0.7
+    },
+    "H+E": {
+      "n": 9,
+      "mean_p": 0.5757,
+      "accuracy": 0.4444
+    },
+    "H+T": {
+      "n": 5,
+      "mean_p": 0.4925,
+      "accuracy": 0.6
+    },
+    "H+E+T": {
+      "n": 4,
+      "mean_p": 0.4456,
+      "accuracy": 0.25
+    },
+    "exam_raises_p": 0.0,
+    "tests_raises_p": 0.4,
+    "all_raises_p": 0.25
+  },
+  "by_split": {
+    "test": {
+      "n_cases": 2,
+      "H": {
+        "n": 2,
+        "mean_p": 1.0,
+        "accuracy": 1.0
+      },
+      "H+E": {
+        "n": 2,
+        "mean_p": 1.0,
+        "accuracy": 1.0
+      },
+      "exam_raises_p": 0.0
+    },
+    "train": {
+      "n_cases": 8,
+      "H": {
+        "n": 8,
+        "mean_p": 0.5887,
+        "accuracy": 0.625
+      },
+      "H+E": {
+        "n": 7,
+        "mean_p": 0.4545,
+        "accuracy": 0.2857
+      },
+      "H+T": {
+        "n": 5,
+        "mean_p": 0.4925,
+        "accuracy": 0.6
+      },
+      "H+E+T": {
+        "n": 4,
+        "mean_p": 0.4456,
+        "accuracy": 0.25
+      },
+      "exam_raises_p": 0.0,
+      "tests_raises_p": 0.4,
+      "all_raises_p": 0.25
+    }
+  },
+  "rows": 56,
+  "mean_letter_mass": 1.0,
+  "rows_low_letter_mass": 0
+}
