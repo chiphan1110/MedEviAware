@@ -28,6 +28,7 @@ GEN_TP=${GEN_TP:-1}
 # The FSDP actor of a 4B model takes ~16 GB per GPU over 4 GPUs; vLLM gets this share of each 48 GB card
 ROLLOUT_GPU_MEM_UTIL=${ROLLOUT_GPU_MEM_UTIL:-0.5}
 
+# Base model, or a saved HF copy to continue from (e.g. .../global_step_20/actor/huggingface)
 MODEL_PATH=${MODEL_PATH:-"${BASE_MODEL_DIR}"}
 
 CKPTS_DIR=${CKPTS_DIR:-"$RESULTS_DIR/checkpoints/${PROJECT_NAME}/${EXPERIMENT_NAME}"}
@@ -48,6 +49,12 @@ LOGPROB_MAX_TOKENS=${LOGPROB_MAX_TOKENS:-32768}
 TRAIN_BATCH_SIZE=${TRAIN_BATCH_SIZE:-64}
 ROLLOUT_N=${ROLLOUT_N:-8}
 TOTAL_EPOCHS=${TOTAL_EPOCHS:-1}   # 53 steps at batch 64 (~5.6 min/step on 4x4090)
+TOTAL_TRAINING_STEPS=${TOTAL_TRAINING_STEPS:-null}   # null = run all epochs; a number stops there
+LR=${LR:-1e-6}
+LR_WARMUP_STEPS=${LR_WARMUP_STEPS:-10}
+SAVE_FREQ=${SAVE_FREQ:-20}
+TEST_FREQ=${TEST_FREQ:-20}   # keep equal to SAVE_FREQ so each save has a val score
+VAL_BEFORE_TRAIN=${VAL_BEFORE_TRAIN:-True}
 ########################### end user-adjustable ###########################
 
 start_time=$(date +%Y%m%d)_$(date +%H%M%S)
@@ -78,8 +85,8 @@ MODEL=(
 )
 
 ACTOR=(
-    actor_rollout_ref.actor.optim.lr=1e-6
-    actor_rollout_ref.actor.optim.lr_warmup_steps=10
+    actor_rollout_ref.actor.optim.lr=${LR}
+    actor_rollout_ref.actor.optim.lr_warmup_steps=${LR_WARMUP_STEPS}
     actor_rollout_ref.actor.optim.lr_scheduler_type=constant
     actor_rollout_ref.actor.ppo_mini_batch_size=32
     actor_rollout_ref.actor.ppo_micro_batch_size_per_gpu=1
@@ -138,13 +145,14 @@ TRAINER=(
     trainer.default_local_dir=${CKPTS_DIR}
     trainer.rollout_data_dir=${ROLLOUT_DIR}
     trainer.validation_data_dir=${VAL_DIR}
-    trainer.val_before_train=True
+    trainer.val_before_train=${VAL_BEFORE_TRAIN}
     trainer.log_val_generations=10
-    # Save and validate at the same steps (20, 40, 60, 80, 100 and the last, 106), so each save has a val score
-    trainer.save_freq=20
-    trainer.test_freq=20
+    # Save and validate at the same steps (and at the last step), so each save has a val score
+    trainer.save_freq=${SAVE_FREQ}
+    trainer.test_freq=${TEST_FREQ}
     trainer.max_actor_ckpt_to_keep=3
     trainer.total_epochs=${TOTAL_EPOCHS}
+    trainer.total_training_steps=${TOTAL_TRAINING_STEPS}
 )
 
 REWARD=(

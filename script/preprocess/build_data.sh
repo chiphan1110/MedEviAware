@@ -26,6 +26,11 @@ REQUEST_MARGIN="${REQUEST_MARGIN:-0.2}"   # labels/RL reward charge REQUEST_COST
 TAGGER_MODEL="${TAGGER_MODEL:-gpt-4.1}"
 WORKERS="${WORKERS:-16}"
 LIMIT="${LIMIT:-0}"   # e.g. LIMIT=20 for a cheap test run of step 1
+# Step 6: share of always-right train items (p = 1) to keep, and the output folder under processed_data/rl_parquet/
+# e.g. STEPS=6 EASY_KEEP=0.15 EASY_REQUEST_KEEP=0.5 RL_PARQUET_NAME=qwen3_4b_instruct_filtered
+EASY_KEEP="${EASY_KEEP:-1.0}"                   # nothing obtainable
+EASY_REQUEST_KEEP="${EASY_REQUEST_KEEP:-1.0}"   # some evidence obtainable
+RL_PARQUET_NAME="${RL_PARQUET_NAME:-${SCORE_MODEL_NAME}}"
 
 mkdir -p "${LOG_DIR}"
 cd "${ROOT_DIR}"
@@ -102,7 +107,9 @@ if run_step 6; then
   python preprocess/build_data/06_build_rl_parquet.py \
     --episodes-dir "${PROCESSED_DIR}/episodes/${SCORE_MODEL_NAME}" \
     --instruction-prompt-file preprocess/prompts/instruction_prompt.txt \
-    --output-dir "${PROCESSED_DIR}/rl_parquet/${SCORE_MODEL_NAME}" \
+    --output-dir "${PROCESSED_DIR}/rl_parquet/${RL_PARQUET_NAME}" \
+    --easy-keep "${EASY_KEEP}" \
+    --easy-request-keep "${EASY_REQUEST_KEEP}" \
     --seed 42 \
-    2>&1 | tee "${LOG_DIR}/06_build_rl_parquet.log"
+    2>&1 | tee "${LOG_DIR}/06_build_rl_parquet_${RL_PARQUET_NAME}.log"
 fi

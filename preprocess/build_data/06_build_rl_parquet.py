@@ -8,6 +8,9 @@ Behavior:
 - keep only seen versions (held-out versions stay test-only)
 - prompt = one user message rendered by case_format.render_policy_prompt, exactly as the episode
   evaluation renders turn 1 (stem, options, reasoning instruction)
+- train, optional: keep only a share of the cases the scoring model always gets right (p = 1 with the
+  facts shown; every GRPO sample then scores +1, so the group gives no learning signal), split by whether
+  any evidence is still obtainable (--easy-keep / --easy-request-keep; 1.0 keeps all)
 - train: rotate each item's options so the correct letter cycles evenly over A-D (the raw train
   split leans to C); val keeps the original option order, as the evaluation does
 - reward_model.ground_truth = the correct letter as shown; extra_info holds what the reward needs:
@@ -34,7 +37,19 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--episodes-dir", type=Path, required=True, help="Folder with train.jsonl and val.jsonl.")
     parser.add_argument("--instruction-prompt-file", type=Path, required=True, help="Policy reasoning instruction.")
     parser.add_argument("--output-dir", type=Path, required=True, help="Writes train.parquet and val.parquet.")
-    parser.add_argument("--seed", type=int, default=42, help="Seed for the option rotations of train items.")
+    parser.add_argument("--seed", type=int, default=42, help="Seed for the option rotations and the easy-case sampling.")
+    parser.add_argument(
+        "--easy-keep",
+        type=float,
+        default=1.0,
+        help="Share of train items with p = 1 and nothing obtainable to keep.",
+    )
+    parser.add_argument(
+        "--easy-request-keep",
+        type=float,
+        default=1.0,
+        help="Share of train items with p = 1 and some evidence obtainable to keep.",
+    )
     return parser.parse_args()
 
 
@@ -72,6 +87,27 @@ def build_row(item: dict, instruction: str, order: str) -> dict:
     }
 
 
+def easy_kind(item: dict) -> str | None:
+    """'none' / 'obtainable' for items the scoring model always gets right with the facts shown, else None."""
+    extra = item["extra_info"]
+    status = {"E": extra["exam_status"], "T": extra["tests_status"]}
+    shown = "H" + "".join(f"+{g}" for g in ("E", "T") if status[g] == "given")
+    if extra["p"][shown] < 1.0 - 1e-9:
+        return None
+    return "obtainable" if "obtainable" in status.values() else "none"
+
+
+def drop_easy(items: list[dict], keep: dict[str, float], seed: int) -> list[dict]:
+    """Keep a random share of each kind of easy item, in the original order."""
+    rng = random.Random(seed)
+    kept = []
+    for it in items:
+        kind = easy_kind(it)
+        if kind is None or rng.random() < keep[kind]:
+            kept.append(it)
+    return kept
+
+
 def balanced_orders(items: list[dict], seed: int) -> list[str]:
     """One rotation per item so the correct letter as shown cycles A, B, C, D over a shuffled item order."""
     rng = random.Random(seed)
@@ -93,6 +129,14 @@ def main() -> None:
 
     for split in ("train", "val"):
         items = [it for it in load_jsonl(args.episodes_dir / f"{split}.jsonl") if not it["extra_info"]["heldout_version"]]
+        if split == "train":
+            easy = Counter(easy_kind(it) for it in items)
+            items = drop_easy(items, {"none": args.easy_keep, "obtainable": args.easy_request_keep}, args.seed)
+            left = Counter(easy_kind(it) for it in items)
+            print(
+                f"[06] train easy items (p = 1) kept: nothing obtainable {left['none']}/{easy['none']}, "
+                f"some obtainable {left['obtainable']}/{easy['obtainable']}"
+            )
         orders = balanced_orders(items, args.seed) if split == "train" else ["rot0"] * len(items)
         rows = [build_row(it, instruction, order) for it, order in zip(items, orders)]
         out_path = args.output_dir / f"{split}.parquet"
