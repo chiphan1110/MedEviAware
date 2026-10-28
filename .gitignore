@@ -50,3 +50,6 @@ checkpoints/
 
 # Data (processed_data/ is committed; keep MIMIC-derived DiagBench text out of git)
 processed_data/raw/diagbench/
+
+# Large per-sample outputs with full reasoning text
+processed_data/score/*/predictions.jsonl

@@ -27,6 +27,9 @@ PORT="${PORT:-8000}"
 BASE_URL="${BASE_URL:-http://127.0.0.1:${PORT}/v1}"
 WORKERS="${WORKERS:-64}"
 LIMIT_CASES="${LIMIT_CASES:-0}"                # e.g. LIMIT_CASES=100 for the pilot
+SAMPLES="${SAMPLES:-2}"                        # reasoning samples per prompt (x 4 option orders per fact set)
+TEMPERATURE="${TEMPERATURE:-0.7}"
+MAX_TOKENS="${MAX_TOKENS:-2048}"
 PROMPTS_JSONL="${PROMPTS_JSONL:-${PROCESSED_DIR}/score/score_prompts.jsonl}"
 OUT_DIR="${OUT_DIR:-${PROCESSED_DIR}/score/${MODEL_NAME}}"
 EXTRA_EVAL_ARGS="${EXTRA_EVAL_ARGS:-}"
@@ -51,6 +54,9 @@ declare -a ARGS=(
   --base-url "${BASE_URL}"
   --workers "${WORKERS}"
   --limit-cases "${LIMIT_CASES}"
+  --samples "${SAMPLES}"
+  --temperature "${TEMPERATURE}"
+  --max-tokens "${MAX_TOKENS}"
 )
 
 if [[ -n "${EXTRA_EVAL_ARGS}" ]]; then

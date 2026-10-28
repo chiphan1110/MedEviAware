@@ -1,0 +1,495 @@
+[
+  {
+    "case_id": 14,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Cardiac monitoring shows the electrocardiogram (ECG) pattern in lead 2."
+    ]
+  },
+  {
+    "case_id": 25,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "His plain abdominal radiograph is shown."
+    ]
+  },
+  {
+    "case_id": 77,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "An India ink stain of the CSF is shown."
+    ]
+  },
+  {
+    "case_id": 95,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "One of the slides from the biopsy is shown in the image below."
+    ]
+  },
+  {
+    "case_id": 107,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Her physical exam reveals examples of findings shown in Figures A-C."
+    ]
+  },
+  {
+    "case_id": 112,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A photograph of sections of the heart was obtained at autopsy."
+    ]
+  },
+  {
+    "case_id": 132,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A peripheral blood smear is shown."
+    ]
+  },
+  {
+    "case_id": 133,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Laboratory values are ordered as seen below."
+    ]
+  },
+  {
+    "case_id": 135,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Laboratory studies are ordered as seen below: Hemoglobin: 15 g/dL, Hematocrit: 43%, Leukocyte count: 6,500/mm^3 with normal differential, Platelet count: 194,000/mm^3, Serum: Na+: 138 mEq/L, Cl-: 102 mEq/L, K+: 4.4 mEq/L, HCO3-: 24 mEq/L, BUN: 20 mg/dL, Glucose: 120 mg/dL, Creatinine: 1.0 mg/dL, Ca2+: 10.2 mg/dL, pH: 7.44, PaCO2: 10 mmHg, PaO2: 90 mmHg, AST: 12 U/L, ALT: 10 U/L."
+    ]
+  },
+  {
+    "case_id": 142,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A computed tomography scan is shown."
+    ]
+  },
+  {
+    "case_id": 235,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Her electrocardiogram (ECG) is shown."
+    ]
+  },
+  {
+    "case_id": 245,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "An abdominal ultrasonography is shown."
+    ]
+  },
+  {
+    "case_id": 255,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Her chest X-ray is shown in the exhibit."
+    ]
+  },
+  {
+    "case_id": 283,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Photograph of the lesion is shown."
+    ]
+  },
+  {
+    "case_id": 295,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "An x-ray of the chest is shown."
+    ]
+  },
+  {
+    "case_id": 311,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A cardiotocography reading is shown."
+    ]
+  },
+  {
+    "case_id": 327,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "He exhibits no tremors or myoclonus."
+    ]
+  },
+  {
+    "case_id": 363,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Exhibit (see image) shows the rash on the patient's left hand and forearm."
+    ]
+  },
+  {
+    "case_id": 426,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "An image of the patient's lower face is shown."
+    ]
+  },
+  {
+    "case_id": 447,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "An x-ray of the chest is shown."
+    ]
+  },
+  {
+    "case_id": 470,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Synovial fluid analysis is also significant for the following result under polarized light microscopy (see image)."
+    ]
+  },
+  {
+    "case_id": 496,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Retinal findings are shown in the picture."
+    ]
+  },
+  {
+    "case_id": 517,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A photograph of the patient's rash is shown."
+    ]
+  },
+  {
+    "case_id": 527,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "MRI is obtained (Image A)."
+    ]
+  },
+  {
+    "case_id": 528,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "His CT scan is displayed in Figure 1."
+    ]
+  },
+  {
+    "case_id": 540,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "On microscopy in your office, you observe the findings in figure A."
+    ]
+  },
+  {
+    "case_id": 552,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A CT scan of the chest is shown."
+    ]
+  },
+  {
+    "case_id": 582,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "He also has the physical exam findings seen in Figures A and B."
+    ]
+  },
+  {
+    "case_id": 595,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A photomicrograph of a wet stool mount is shown."
+    ]
+  },
+  {
+    "case_id": 605,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Laboratory tests are obtained and results are shown below:"
+    ]
+  },
+  {
+    "case_id": 606,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A photomicrograph of a biopsy specimen of the affected area of the lungs is shown."
+    ]
+  },
+  {
+    "case_id": 621,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "X-ray of the pelvis is shown."
+    ]
+  },
+  {
+    "case_id": 663,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A photograph of the fundoscopic examination of the right eye is shown."
+    ]
+  },
+  {
+    "case_id": 744,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Biopsy of lung lesion is shown."
+    ]
+  },
+  {
+    "case_id": 752,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Results of fluoroscopic barium esophagography are shown."
+    ]
+  },
+  {
+    "case_id": 754,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "An electrocardiogram is shown."
+    ]
+  },
+  {
+    "case_id": 769,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A voiding cystourethrogram is shown."
+    ]
+  },
+  {
+    "case_id": 783,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A photograph of the eye is shown."
+    ]
+  },
+  {
+    "case_id": 790,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Peripheral blood smear is shown in the exhibit."
+    ]
+  },
+  {
+    "case_id": 801,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Physical examination of the face is shown in Image A."
+    ]
+  },
+  {
+    "case_id": 805,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Abdominal CT scan is shown below."
+    ]
+  },
+  {
+    "case_id": 809,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A CT scan of the chest is shown."
+    ]
+  },
+  {
+    "case_id": 829,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Gross examination of the brain at autopsy is shown."
+    ]
+  },
+  {
+    "case_id": 848,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "The results of the correlation analysis are shown."
+    ]
+  },
+  {
+    "case_id": 853,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Labs are obtained, as shown below: Leukocyte count: 10,000/mm^3 with normal differential.",
+      "Labs are obtained, as shown below: Hemoglobin: 13.5 g/dL.",
+      "Labs are obtained, as shown below: Platelet count: 200,000/mm^3.",
+      "Labs are obtained, as shown below: Beta-human chorionic gonadotropin: Pending."
+    ]
+  },
+  {
+    "case_id": 862,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "She exhibits moderate generalized weakness."
+    ]
+  },
+  {
+    "case_id": 880,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A photomicrograph of a peripheral blood smear with Wright's stain is shown."
+    ]
+  },
+  {
+    "case_id": 888,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "The peripheral blood smear is shown in the picture."
+    ]
+  },
+  {
+    "case_id": 890,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A photomicrograph of a urine sample is shown."
+    ]
+  },
+  {
+    "case_id": 926,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Fundoscopic examination of the right eye is shown."
+    ]
+  },
+  {
+    "case_id": 955,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A photomicrograph of the discharge is shown."
+    ]
+  },
+  {
+    "case_id": 1006,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Cardiac examination is shown."
+    ]
+  },
+  {
+    "case_id": 1019,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Cardiac examination is shown."
+    ]
+  },
+  {
+    "case_id": 1033,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Oral examination shows the findings in the photograph."
+    ]
+  },
+  {
+    "case_id": 1034,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "An X-ray of her hands is shown."
+    ]
+  },
+  {
+    "case_id": 1069,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Microscopic image depicts macroscopically intact myocardium."
+    ]
+  },
+  {
+    "case_id": 1096,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "X-rays of the chest are shown."
+    ]
+  },
+  {
+    "case_id": 1110,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A plain x-ray of the skull is shown."
+    ]
+  },
+  {
+    "case_id": 1136,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A photomicrograph of a Gram stain of an isolate from blood culture is shown."
+    ]
+  },
+  {
+    "case_id": 1143,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "When patient is asked to push against the wall, right shoulder blade moves backward (see image)."
+    ]
+  },
+  {
+    "case_id": 1148,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "An ECG is shown."
+    ]
+  },
+  {
+    "case_id": 1158,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A CT scan of the chest is shown."
+    ]
+  },
+  {
+    "case_id": 1165,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "An ultrasound of his right kidney is shown."
+    ]
+  },
+  {
+    "case_id": 1170,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Results of the MRI are shown in Figures A and B."
+    ]
+  },
+  {
+    "case_id": 1197,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "The pediatrician orders karyotype (see image)."
+    ]
+  },
+  {
+    "case_id": 1198,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "An x-ray of the abdomen is shown."
+    ]
+  },
+  {
+    "case_id": 1223,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "An image of the tracing is shown below."
+    ]
+  },
+  {
+    "case_id": 1241,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "Abdominal Doppler ultrasound imaging is shown in the picture."
+    ]
+  },
+  {
+    "case_id": 1253,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "The rash has a reticular pattern (as shown in the photograph)."
+    ]
+  },
+  {
+    "case_id": 1257,
+    "reason": "refers_to_missing_image",
+    "facts": [
+      "A CT scan of the head is shown."
+    ]
+  }
+]

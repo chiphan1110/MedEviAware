@@ -18,7 +18,10 @@ fi
 RAW_DATA_DIR="${RAW_DATA_DIR:-${ROOT_DIR}/processed_data/raw}"
 PROCESSED_DIR="${PROCESSED_DIR:-${ROOT_DIR}/processed_data}"
 LOG_DIR="${LOG_DIR:-${ROOT_DIR}/logs}"
-STEPS="${STEPS:-1 2 3}"   # e.g. STEPS="2 3" to skip tagging
+STEPS="${STEPS:-1 2 3 4 5}"   # e.g. STEPS="4 5" to rebuild labels and episodes (step 4 needs the scoring step done)
+SCORE_MODEL_NAME="${SCORE_MODEL_NAME:-qwen3_4b_instruct}"   # folder under processed_data/score/ with scores.jsonl
+WRONG_PENALTY="${WRONG_PENALTY:-1.0}"
+REQUEST_COST="${REQUEST_COST:-0.05}"
 TAGGER_MODEL="${TAGGER_MODEL:-gpt-4.1}"
 WORKERS="${WORKERS:-16}"
 LIMIT="${LIMIT:-0}"   # e.g. LIMIT=20 for a cheap test run of step 1
@@ -62,8 +65,32 @@ if run_step 3; then
   python preprocess/build_data/03_build_score_prompts.py \
     --tagged-jsonl "${PROCESSED_DIR}/tagged/cases_tagged.jsonl" \
     --split-csv "${PROCESSED_DIR}/splits/case_split.csv" \
-    --system-prompt-file preprocess/prompts/score_system.txt \
+    --instruction-prompt-file preprocess/prompts/score_instruction.txt \
     --output-jsonl "${PROCESSED_DIR}/score/score_prompts.jsonl" \
     --orders rot0,rot1,rot2,rot3 \
     2>&1 | tee "${LOG_DIR}/03_build_score_prompts.log"
+fi
+
+# Step 4: best action and best path for every (case, availability version), from the scored p values
+if run_step 4; then
+  python preprocess/build_data/04_make_labels.py \
+    --tagged-jsonl "${PROCESSED_DIR}/tagged/cases_tagged.jsonl" \
+    --split-csv "${PROCESSED_DIR}/splits/case_split.csv" \
+    --scores-jsonl "${PROCESSED_DIR}/score/${SCORE_MODEL_NAME}/scores.jsonl" \
+    --output-jsonl "${PROCESSED_DIR}/labels/${SCORE_MODEL_NAME}/labels.jsonl" \
+    --stats-json "${PROCESSED_DIR}/labels/${SCORE_MODEL_NAME}/label_stats.json" \
+    --skipped-json "${PROCESSED_DIR}/labels/${SCORE_MODEL_NAME}/skipped_cases.json" \
+    --wrong-penalty "${WRONG_PENALTY}" \
+    --request-cost "${REQUEST_COST}" \
+    --heldout-versions "unavailable:obtainable,obtainable:unavailable" \
+    2>&1 | tee "${LOG_DIR}/04_make_labels.log"
+fi
+
+# Step 5: episode items (train / val / test), one plain QA item per (case, version), no chat roles
+if run_step 5; then
+  python preprocess/build_data/05_build_episodes.py \
+    --tagged-jsonl "${PROCESSED_DIR}/tagged/cases_tagged.jsonl" \
+    --labels-jsonl "${PROCESSED_DIR}/labels/${SCORE_MODEL_NAME}/labels.jsonl" \
+    --output-dir "${PROCESSED_DIR}/episodes/${SCORE_MODEL_NAME}" \
+    2>&1 | tee "${LOG_DIR}/05_build_episodes.log"
 fi
