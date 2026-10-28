@@ -13,7 +13,10 @@ Behavior:
 - score each action by looking ahead over what could still be revealed:
     ANSWER      = p * 1 + (1 - p) * (-wrong_penalty)      p = chance of being right with the shown facts
     DEFER       = 0
-    REQUEST_<g> = -request_cost + best score after g is revealed   (only if g is obtainable)
+    REQUEST_<g> = -(request_cost + request_margin) + best score after g is revealed   (only if g is obtainable)
+  the margin makes a request win only when it beats answering or deferring by at least that much,
+  so a one-sample gain in p (one of 8 reasoning samples, i.e. noise) does not count as useful evidence;
+  evaluation still charges only request_cost
 - label = best-scoring action; ties go to the cheaper action (DEFER over ANSWER at exactly 0, and
   ANSWER/DEFER over REQUEST); between two requests, the one whose evidence raises p more
 - record the full best path (e.g. REQUEST_EXAM -> ANSWER) and the score of every action
@@ -47,6 +50,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--skipped-json", type=Path, required=True, help="Cases skipped for missing images.")
     parser.add_argument("--wrong-penalty", type=float, default=1.0, help="Cost of a wrong answer (correct = +1).")
     parser.add_argument("--request-cost", type=float, default=0.05, help="Cost of each request.")
+    parser.add_argument(
+        "--request-margin",
+        type=float,
+        default=0.2,
+        help="Extra cost per request when labelling, so a request must beat answering or deferring by this much.",
+    )
     parser.add_argument(
         "--heldout-versions",
         type=str,
@@ -126,7 +135,7 @@ def main() -> None:
     rows = []
     for cid in sorted(set(cases) - skip_ids):
         case, meta, p = cases[cid], split_rows[cid], scores[cid]["p"]
-        planner = Planner(p, args.wrong_penalty, args.request_cost)
+        planner = Planner(p, args.wrong_penalty, args.request_cost + args.request_margin)
         for exam_status, tests_status in case_versions(case):
             status = dict(zip(("E", "T"), (exam_status, tests_status)))
             revealed = frozenset(g for g, s in status.items() if s == "given")
@@ -171,6 +180,7 @@ def main() -> None:
         "settings": {
             "wrong_penalty": args.wrong_penalty,
             "request_cost": args.request_cost,
+            "request_margin": args.request_margin,
             "heldout_versions": sorted(":".join(v) for v in heldout),
         },
         "n_cases": len({r["case_id"] for r in rows}),

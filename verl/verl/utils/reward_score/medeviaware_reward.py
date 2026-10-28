@@ -11,9 +11,11 @@ is an option letter, REQUEST: EXAM, REQUEST: TESTS or DEFER. Then
                                         already given)
             FORMAT_PENALTY              malformed, or cut off at the length limit
 
-Q(s, REQUEST_g) = -request_cost + V(s with g revealed) comes from the labels (extra_info
-score_request_exam / score_request_tests): V is the best score still reachable after the evidence is
-revealed, from the reasoning p measured on the scoring step. It is null when g cannot be requested.
+Q(s, REQUEST_g) = -(request_cost + request_margin) + V(s with g revealed) comes from the labels
+(extra_info score_request_exam / score_request_tests): V is the best score still reachable after the
+evidence is revealed, from the reasoning p measured on the scoring step. It is null when g cannot be
+requested. The margin (0.2 on top of the 0.05 cost) means a request only pays off when the evidence
+raises p by more than one of the 8 scoring samples.
 """
 
 import re
