@@ -1,98 +1,127 @@
 {
   "overall": {
-    "n_cases": 20,
+    "n_cases": 1010,
     "H": {
-      "n": 20,
-      "mean_p": 0.8,
-      "majority_accuracy": 0.85
+      "n": 1010,
+      "mean_p": 0.5802,
+      "majority_accuracy": 0.6089
     },
     "H+E": {
-      "n": 19,
-      "mean_p": 0.7039,
-      "majority_accuracy": 0.7895
+      "n": 939,
+      "mean_p": 0.6371,
+      "majority_accuracy": 0.672
     },
     "H+T": {
-      "n": 11,
-      "mean_p": 0.6136,
-      "majority_accuracy": 0.6364
+      "n": 643,
+      "mean_p": 0.6371,
+      "majority_accuracy": 0.6827
     },
     "H+E+T": {
-      "n": 10,
-      "mean_p": 0.7375,
-      "majority_accuracy": 0.9
+      "n": 572,
+      "mean_p": 0.6862,
+      "majority_accuracy": 0.7343
     },
-    "exam_raises_p": 0.1053,
-    "exam_lowers_p": 0.4211,
-    "tests_raises_p": 0.1818,
-    "tests_lowers_p": 0.5455,
-    "all_raises_p": 0.1,
-    "all_lowers_p": 0.4
+    "exam_raises_p": 0.295,
+    "exam_lowers_p": 0.197,
+    "tests_raises_p": 0.3375,
+    "tests_lowers_p": 0.2022,
+    "all_raises_p": 0.3986,
+    "all_lowers_p": 0.1888
   },
   "by_split": {
     "test": {
-      "n_cases": 5,
+      "n_cases": 201,
       "H": {
-        "n": 5,
-        "mean_p": 0.825,
-        "majority_accuracy": 1.0
+        "n": 201,
+        "mean_p": 0.5653,
+        "majority_accuracy": 0.6119
       },
       "H+E": {
-        "n": 5,
-        "mean_p": 0.625,
-        "majority_accuracy": 0.8
+        "n": 187,
+        "mean_p": 0.6197,
+        "majority_accuracy": 0.6578
       },
       "H+T": {
-        "n": 2,
-        "mean_p": 0.5625,
-        "majority_accuracy": 0.5
+        "n": 128,
+        "mean_p": 0.6426,
+        "majority_accuracy": 0.6875
       },
       "H+E+T": {
-        "n": 2,
-        "mean_p": 0.5,
-        "majority_accuracy": 1.0
+        "n": 114,
+        "mean_p": 0.6908,
+        "majority_accuracy": 0.7281
       },
-      "exam_raises_p": 0.2,
-      "exam_lowers_p": 0.6,
-      "tests_raises_p": 0.0,
-      "tests_lowers_p": 1.0,
-      "all_raises_p": 0.5,
-      "all_lowers_p": 0.5
+      "exam_raises_p": 0.3102,
+      "exam_lowers_p": 0.1979,
+      "tests_raises_p": 0.3438,
+      "tests_lowers_p": 0.1719,
+      "all_raises_p": 0.4035,
+      "all_lowers_p": 0.1667
     },
     "train": {
-      "n_cases": 15,
+      "n_cases": 708,
       "H": {
-        "n": 15,
-        "mean_p": 0.7917,
-        "majority_accuracy": 0.8
+        "n": 708,
+        "mean_p": 0.5837,
+        "majority_accuracy": 0.6073
       },
       "H+E": {
-        "n": 14,
-        "mean_p": 0.7321,
-        "majority_accuracy": 0.7857
+        "n": 658,
+        "mean_p": 0.6368,
+        "majority_accuracy": 0.6717
       },
       "H+T": {
-        "n": 9,
-        "mean_p": 0.625,
-        "majority_accuracy": 0.6667
+        "n": 451,
+        "mean_p": 0.6236,
+        "majority_accuracy": 0.6696
       },
       "H+E+T": {
-        "n": 8,
-        "mean_p": 0.7969,
-        "majority_accuracy": 0.875
+        "n": 401,
+        "mean_p": 0.673,
+        "majority_accuracy": 0.7232
       },
-      "exam_raises_p": 0.0714,
-      "exam_lowers_p": 0.3571,
-      "tests_raises_p": 0.2222,
-      "tests_lowers_p": 0.4444,
-      "all_raises_p": 0.0,
-      "all_lowers_p": 0.375
+      "exam_raises_p": 0.2872,
+      "exam_lowers_p": 0.2021,
+      "tests_raises_p": 0.337,
+      "tests_lowers_p": 0.2084,
+      "all_raises_p": 0.3915,
+      "all_lowers_p": 0.197
+    },
+    "val": {
+      "n_cases": 101,
+      "H": {
+        "n": 101,
+        "mean_p": 0.5854,
+        "majority_accuracy": 0.6139
+      },
+      "H+E": {
+        "n": 94,
+        "mean_p": 0.6742,
+        "majority_accuracy": 0.7021
+      },
+      "H+T": {
+        "n": 64,
+        "mean_p": 0.7207,
+        "majority_accuracy": 0.7656
+      },
+      "H+E+T": {
+        "n": 57,
+        "mean_p": 0.7697,
+        "majority_accuracy": 0.8246
+      },
+      "exam_raises_p": 0.3191,
+      "exam_lowers_p": 0.1596,
+      "tests_raises_p": 0.3281,
+      "tests_lowers_p": 0.2188,
+      "all_raises_p": 0.4386,
+      "all_lowers_p": 0.1754
     }
   },
-  "rows": 240,
-  "samples": 480,
-  "format_error_rate": 0.0542,
-  "truncated_samples": 26,
-  "mean_completion_tokens_per_sample": 698.2,
+  "rows": 12656,
+  "samples": 25312,
+  "format_error_rate": 0.0484,
+  "truncated_samples": 1228,
+  "mean_completion_tokens_per_sample": 723.8,
   "settings": {
     "api_model": "qwen3_4b_instruct",
     "samples": 2,
