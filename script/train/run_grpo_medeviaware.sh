@@ -140,8 +140,9 @@ TRAINER=(
     trainer.validation_data_dir=${VAL_DIR}
     trainer.val_before_train=True
     trainer.log_val_generations=10
-    trainer.save_freq=10
-    trainer.test_freq=10
+    # Save and validate at the same steps (20, 40, 60, 80, 100 and the last, 106), so each save has a val score
+    trainer.save_freq=20
+    trainer.test_freq=20
     trainer.max_actor_ckpt_to_keep=3
     trainer.total_epochs=${TOTAL_EPOCHS}
 )
