@@ -47,7 +47,7 @@ PPO_MAX_TOKENS=${PPO_MAX_TOKENS:-16384}
 LOGPROB_MAX_TOKENS=${LOGPROB_MAX_TOKENS:-32768}
 TRAIN_BATCH_SIZE=${TRAIN_BATCH_SIZE:-64}
 ROLLOUT_N=${ROLLOUT_N:-8}
-TOTAL_EPOCHS=${TOTAL_EPOCHS:-2}
+TOTAL_EPOCHS=${TOTAL_EPOCHS:-1}   # 53 steps at batch 64 (~5.6 min/step on 4x4090)
 ########################### end user-adjustable ###########################
 
 start_time=$(date +%Y%m%d)_$(date +%H%M%S)
