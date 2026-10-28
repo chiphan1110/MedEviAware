@@ -22,6 +22,7 @@ STEPS="${STEPS:-1 2 3 4 5 6}"   # e.g. STEPS="4 5 6" to rebuild labels, episodes
 SCORE_MODEL_NAME="${SCORE_MODEL_NAME:-qwen3_4b_instruct}"   # folder under processed_data/score/ with scores.jsonl
 WRONG_PENALTY="${WRONG_PENALTY:-1.0}"
 REQUEST_COST="${REQUEST_COST:-0.05}"
+REQUEST_MARGIN="${REQUEST_MARGIN:-0.2}"   # labels/RL reward charge REQUEST_COST + REQUEST_MARGIN per request; eval charges REQUEST_COST
 TAGGER_MODEL="${TAGGER_MODEL:-gpt-4.1}"
 WORKERS="${WORKERS:-16}"
 LIMIT="${LIMIT:-0}"   # e.g. LIMIT=20 for a cheap test run of step 1
@@ -82,6 +83,7 @@ if run_step 4; then
     --skipped-json "${PROCESSED_DIR}/labels/${SCORE_MODEL_NAME}/skipped_cases.json" \
     --wrong-penalty "${WRONG_PENALTY}" \
     --request-cost "${REQUEST_COST}" \
+    --request-margin "${REQUEST_MARGIN}" \
     --heldout-versions "unavailable:obtainable,obtainable:unavailable" \
     2>&1 | tee "${LOG_DIR}/04_make_labels.log"
 fi
