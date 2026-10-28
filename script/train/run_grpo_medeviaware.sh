@@ -110,6 +110,8 @@ ROLLOUT=(
     actor_rollout_ref.rollout.log_prob_max_token_len_per_gpu=${LOGPROB_MAX_TOKENS}
     actor_rollout_ref.rollout.tensor_model_parallel_size=${GEN_TP}
     actor_rollout_ref.rollout.gpu_memory_utilization=${ROLLOUT_GPU_MEM_UTIL}
+    # Unset, verl uses the model's max_position_embeddings (262,144 for Qwen3-4B-Instruct-2507): 36 GiB of KV cache
+    actor_rollout_ref.rollout.max_model_len=$((MAX_PROMPT_LENGTH + MAX_RESPONSE_LENGTH))
     actor_rollout_ref.rollout.n=${ROLLOUT_N}
     actor_rollout_ref.rollout.temperature=1.0
     actor_rollout_ref.rollout.top_p=1.0
