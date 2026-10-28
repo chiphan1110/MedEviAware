@@ -14,20 +14,20 @@
   "overall": {
     "n": 5940,
     "ANSWER": {
-      "count": 2887,
-      "share": 0.486
+      "count": 3256,
+      "share": 0.5481
     },
     "DEFER": {
-      "count": 2443,
-      "share": 0.4113
-    },
-    "REQUEST_TESTS": {
-      "count": 320,
-      "share": 0.0539
+      "count": 1986,
+      "share": 0.3343
     },
     "REQUEST_EXAM": {
-      "count": 290,
-      "share": 0.0488
+      "count": 350,
+      "share": 0.0589
+    },
+    "REQUEST_TESTS": {
+      "count": 348,
+      "share": 0.0586
     }
   },
   "by_split": {
@@ -35,39 +35,39 @@
       "seen_versions": {
         "n": 3401,
         "ANSWER": {
-          "count": 1709,
-          "share": 0.5025
+          "count": 1897,
+          "share": 0.5578
         },
         "DEFER": {
-          "count": 1410,
-          "share": 0.4146
+          "count": 1196,
+          "share": 0.3517
         },
         "REQUEST_EXAM": {
-          "count": 141,
-          "share": 0.0415
+          "count": 164,
+          "share": 0.0482
         },
         "REQUEST_TESTS": {
-          "count": 141,
-          "share": 0.0415
+          "count": 144,
+          "share": 0.0423
         }
       },
       "heldout_versions": {
         "n": 718,
         "ANSWER": {
-          "count": 298,
-          "share": 0.415
+          "count": 338,
+          "share": 0.4708
         },
         "DEFER": {
-          "count": 289,
-          "share": 0.4025
+          "count": 237,
+          "share": 0.3301
         },
         "REQUEST_TESTS": {
-          "count": 73,
-          "share": 0.1017
+          "count": 82,
+          "share": 0.1142
         },
         "REQUEST_EXAM": {
-          "count": 58,
-          "share": 0.0808
+          "count": 61,
+          "share": 0.085
         }
       }
     },
@@ -75,18 +75,18 @@
       "seen_versions": {
         "n": 498,
         "ANSWER": {
-          "count": 255,
-          "share": 0.512
+          "count": 303,
+          "share": 0.6084
         },
         "DEFER": {
-          "count": 194,
-          "share": 0.3896
-        },
-        "REQUEST_TESTS": {
-          "count": 26,
-          "share": 0.0522
+          "count": 139,
+          "share": 0.2791
         },
         "REQUEST_EXAM": {
+          "count": 33,
+          "share": 0.0663
+        },
+        "REQUEST_TESTS": {
           "count": 23,
           "share": 0.0462
         }
@@ -94,20 +94,20 @@
       "heldout_versions": {
         "n": 108,
         "ANSWER": {
-          "count": 43,
-          "share": 0.3981
+          "count": 51,
+          "share": 0.4722
         },
         "DEFER": {
-          "count": 42,
-          "share": 0.3889
+          "count": 28,
+          "share": 0.2593
         },
         "REQUEST_TESTS": {
-          "count": 12,
-          "share": 0.1111
+          "count": 15,
+          "share": 0.1389
         },
         "REQUEST_EXAM": {
-          "count": 11,
-          "share": 0.1019
+          "count": 14,
+          "share": 0.1296
         }
       }
     },
@@ -115,39 +115,39 @@
       "seen_versions": {
         "n": 1001,
         "ANSWER": {
-          "count": 494,
-          "share": 0.4935
+          "count": 569,
+          "share": 0.5684
         },
         "DEFER": {
-          "count": 422,
-          "share": 0.4216
-        },
-        "REQUEST_TESTS": {
-          "count": 46,
-          "share": 0.046
+          "count": 328,
+          "share": 0.3277
         },
         "REQUEST_EXAM": {
-          "count": 39,
-          "share": 0.039
+          "count": 53,
+          "share": 0.0529
+        },
+        "REQUEST_TESTS": {
+          "count": 51,
+          "share": 0.0509
         }
       },
       "heldout_versions": {
         "n": 214,
         "ANSWER": {
-          "count": 88,
-          "share": 0.4112
+          "count": 98,
+          "share": 0.4579
         },
         "DEFER": {
-          "count": 86,
-          "share": 0.4019
+          "count": 58,
+          "share": 0.271
         },
         "REQUEST_TESTS": {
-          "count": 22,
-          "share": 0.1028
+          "count": 33,
+          "share": 0.1542
         },
         "REQUEST_EXAM": {
-          "count": 18,
-          "share": 0.0841
+          "count": 25,
+          "share": 0.1168
         }
       }
     }
@@ -156,52 +156,78 @@
     "exam=given|tests=given": {
       "n": 520,
       "ANSWER": {
-        "count": 308,
-        "share": 0.5923
+        "count": 350,
+        "share": 0.6731
       },
       "DEFER": {
-        "count": 212,
-        "share": 0.4077
+        "count": 170,
+        "share": 0.3269
       }
     },
     "exam=given|tests=none": {
       "n": 358,
       "ANSWER": {
-        "count": 199,
-        "share": 0.5559
+        "count": 222,
+        "share": 0.6201
       },
       "DEFER": {
-        "count": 159,
-        "share": 0.4441
+        "count": 136,
+        "share": 0.3799
       }
     },
     "exam=given|tests=obtainable": {
       "n": 520,
       "ANSWER": {
-        "count": 229,
-        "share": 0.4404
+        "count": 269,
+        "share": 0.5173
       },
       "DEFER": {
-        "count": 180,
-        "share": 0.3462
+        "count": 134,
+        "share": 0.2577
       },
       "REQUEST_TESTS": {
-        "count": 111,
-        "share": 0.2135
+        "count": 117,
+        "share": 0.225
       }
     },
     "exam=given|tests=unavailable": {
       "n": 520,
       "ANSWER": {
-        "count": 283,
-        "share": 0.5442
+        "count": 316,
+        "share": 0.6077
       },
       "DEFER": {
-        "count": 237,
-        "share": 0.4558
+        "count": 204,
+        "share": 0.3923
       }
     },
     "exam=none|tests=given": {
+      "n": 62,
+      "ANSWER": {
+        "count": 39,
+        "share": 0.629
+      },
+      "DEFER": {
+        "count": 23,
+        "share": 0.371
+      }
+    },
+    "exam=none|tests=obtainable": {
+      "n": 62,
+      "ANSWER": {
+        "count": 29,
+        "share": 0.4677
+      },
+      "DEFER": {
+        "count": 20,
+        "share": 0.3226
+      },
+      "REQUEST_TESTS": {
+        "count": 13,
+        "share": 0.2097
+      }
+    },
+    "exam=none|tests=unavailable": {
       "n": 62,
       "ANSWER": {
         "count": 33,
@@ -212,152 +238,126 @@
         "share": 0.4677
       }
     },
-    "exam=none|tests=obtainable": {
-      "n": 62,
-      "ANSWER": {
-        "count": 26,
-        "share": 0.4194
-      },
-      "DEFER": {
-        "count": 25,
-        "share": 0.4032
-      },
-      "REQUEST_TESTS": {
-        "count": 11,
-        "share": 0.1774
-      }
-    },
-    "exam=none|tests=unavailable": {
-      "n": 62,
-      "ANSWER": {
-        "count": 34,
-        "share": 0.5484
-      },
-      "DEFER": {
-        "count": 28,
-        "share": 0.4516
-      }
-    },
     "exam=obtainable|tests=given": {
       "n": 520,
       "ANSWER": {
-        "count": 256,
-        "share": 0.4923
+        "count": 280,
+        "share": 0.5385
       },
       "DEFER": {
-        "count": 193,
-        "share": 0.3712
+        "count": 148,
+        "share": 0.2846
       },
       "REQUEST_EXAM": {
-        "count": 71,
-        "share": 0.1365
+        "count": 92,
+        "share": 0.1769
       }
     },
     "exam=obtainable|tests=none": {
       "n": 358,
       "ANSWER": {
-        "count": 153,
-        "share": 0.4274
+        "count": 179,
+        "share": 0.5
       },
       "DEFER": {
-        "count": 141,
-        "share": 0.3939
+        "count": 116,
+        "share": 0.324
       },
       "REQUEST_EXAM": {
-        "count": 64,
-        "share": 0.1788
+        "count": 63,
+        "share": 0.176
       }
     },
     "exam=obtainable|tests=obtainable": {
       "n": 520,
       "ANSWER": {
-        "count": 193,
-        "share": 0.3712
+        "count": 225,
+        "share": 0.4327
       },
       "DEFER": {
-        "count": 168,
-        "share": 0.3231
-      },
-      "REQUEST_TESTS": {
-        "count": 91,
-        "share": 0.175
+        "count": 112,
+        "share": 0.2154
       },
       "REQUEST_EXAM": {
-        "count": 68,
-        "share": 0.1308
+        "count": 95,
+        "share": 0.1827
+      },
+      "REQUEST_TESTS": {
+        "count": 88,
+        "share": 0.1692
       }
     },
     "exam=obtainable|tests=unavailable": {
       "n": 520,
-      "DEFER": {
-        "count": 217,
-        "share": 0.4173
-      },
       "ANSWER": {
-        "count": 216,
-        "share": 0.4154
+        "count": 247,
+        "share": 0.475
+      },
+      "DEFER": {
+        "count": 173,
+        "share": 0.3327
       },
       "REQUEST_EXAM": {
-        "count": 87,
-        "share": 0.1673
+        "count": 100,
+        "share": 0.1923
       }
     },
     "exam=unavailable|tests=given": {
       "n": 520,
       "ANSWER": {
-        "count": 300,
-        "share": 0.5769
+        "count": 325,
+        "share": 0.625
       },
       "DEFER": {
-        "count": 220,
-        "share": 0.4231
+        "count": 195,
+        "share": 0.375
       }
     },
     "exam=unavailable|tests=none": {
       "n": 358,
       "ANSWER": {
-        "count": 185,
-        "share": 0.5168
+        "count": 208,
+        "share": 0.581
       },
       "DEFER": {
-        "count": 173,
-        "share": 0.4832
+        "count": 150,
+        "share": 0.419
       }
     },
     "exam=unavailable|tests=obtainable": {
       "n": 520,
       "ANSWER": {
-        "count": 213,
-        "share": 0.4096
+        "count": 240,
+        "share": 0.4615
       },
       "DEFER": {
-        "count": 200,
-        "share": 0.3846
+        "count": 150,
+        "share": 0.2885
       },
       "REQUEST_TESTS": {
-        "count": 107,
-        "share": 0.2058
+        "count": 130,
+        "share": 0.25
       }
     },
     "exam=unavailable|tests=unavailable": {
       "n": 520,
-      "DEFER": {
-        "count": 261,
-        "share": 0.5019
-      },
       "ANSWER": {
-        "count": 259,
-        "share": 0.4981
+        "count": 294,
+        "share": 0.5654
+      },
+      "DEFER": {
+        "count": 226,
+        "share": 0.4346
       }
     }
   },
   "best_paths": {
-    "ANSWER": 2887,
-    "DEFER": 2443,
-    "REQUEST_TESTS > ANSWER": 301,
-    "REQUEST_EXAM > ANSWER": 279,
-    "REQUEST_TESTS > REQUEST_EXAM > ANSWER": 19,
-    "REQUEST_EXAM > REQUEST_TESTS > ANSWER": 11
+    "ANSWER": 3256,
+    "DEFER": 1986,
+    "REQUEST_EXAM > ANSWER": 333,
+    "REQUEST_TESTS > ANSWER": 328,
+    "REQUEST_TESTS > REQUEST_EXAM > ANSWER": 20,
+    "REQUEST_EXAM > REQUEST_TESTS > ANSWER": 17
   },
-  "mean_best_value": 0.4863
+  "mean_best_value": 0.5786
 }
