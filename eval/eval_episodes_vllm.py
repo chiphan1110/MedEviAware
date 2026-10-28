@@ -3,7 +3,7 @@
 
 Input:
 - --episodes-jsonl: episode items from 05_build_episodes.py (No, id, question, options, answer, extra_info)
-- --instruction-prompt-file: reasoning instruction (<think> </think> then one action in <answer> </answer>)
+- --instruction-prompt-file: reasoning instruction (<reasoning> </reasoning> then one action in <answer> </answer>)
 
 Behavior:
 - turn 1: the item's stem + options + instruction prompt, as one user message
@@ -76,7 +76,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--enable-thinking",
         action="store_true",
-        help="Let hybrid-thinking models use their native thinking mode (default off; reasoning goes in <think> tags).",
+        help="Let hybrid-thinking models use their native thinking mode (default off; reasoning goes in <reasoning> tags).",
     )
     return parser.parse_args()
 

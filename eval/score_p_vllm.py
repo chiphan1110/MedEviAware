@@ -7,7 +7,7 @@ Input:
 
 Behavior:
 - send every row as one user message and sample --samples reasoning answers
-  (<think> ... </think><answer>X</answer>) at --temperature, the same answering style the policy uses
+  (<reasoning> ... </reasoning><answer>X</answer>) at --temperature, the same answering style the policy uses
 - check each sample's <answer> letter; a sample without a valid letter counts as not correct
 - write per-row results to predictions.jsonl as they finish (every sample with its reasoning text
   unless --no-save-responses), so an interrupted run resumes
@@ -60,7 +60,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--enable-thinking",
         action="store_true",
-        help="Let hybrid-thinking models use their native thinking mode (default off; reasoning goes in <think> tags).",
+        help="Let hybrid-thinking models use their native thinking mode (default off; reasoning goes in <reasoning> tags).",
     )
     return parser.parse_args()
 

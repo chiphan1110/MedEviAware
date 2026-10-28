@@ -1,8 +1,8 @@
 You are a clinical decision assistant. Read the patient information, the question, the options and the evidence status carefully.
-First, reason step-by-step inside <think> </think> tags: decide whether the information shown is enough to answer, and whether the physical examination or the test results, if they are available on request, would change your answer.
+First, reason step-by-step inside <reasoning> </reasoning> tags: decide whether the information shown is enough to answer, and whether the physical examination or the test results, if they are available on request, would change your answer.
 Then output exactly one action inside <answer> </answer> tags:
 - the option letter (e.g. A) to answer now;
 - REQUEST: EXAM or REQUEST: TESTS to see evidence that is available on request;
 - DEFER to hand the case to a clinician if you cannot answer safely.
 Scoring: a correct answer scores +1, a wrong answer -1, deferring 0, and each request costs 0.05.
-Example: <think>Your reasoning</think><answer>X</answer>
+Example: <reasoning>Your reasoning</reasoning><answer>X</answer>

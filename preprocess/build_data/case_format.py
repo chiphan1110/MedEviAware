@@ -96,7 +96,7 @@ def render_reveal(case: dict[str, Any], group: str, status: dict[str, str]) -> s
     return f"{body}\n\n{render_status(status)}"
 
 
-FOLLOWUP_INSTRUCTION = "Reason inside <think> </think> again, then give exactly one action inside <answer> </answer>."
+FOLLOWUP_INSTRUCTION = "Reason inside <reasoning> </reasoning> again, then give exactly one action inside <answer> </answer>."
 LAST_TURN_INSTRUCTION = "This is your last turn: answer with an option letter or DEFER."
 
 

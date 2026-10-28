@@ -11,7 +11,7 @@ Behavior:
   (exam-only cases get H and H+E, tests-only cases get H and H+T)
 - show the options in each order from --orders (rot0..rot3: every option once at every
   position) to average out letter and position bias
-- each prompt ends with the reasoning instruction (<think> </think> then the letter in <answer> </answer>),
+- each prompt ends with the reasoning instruction (<reasoning> </reasoning> then the letter in <answer> </answer>),
   the same answering style the policy uses; prompts are plain text, without chat roles
 - store the shown->original letter map and the gold letter as shown, so the scoring step can check
   each sampled answer and map it back to the original options
