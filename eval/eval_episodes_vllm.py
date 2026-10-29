@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Multi-turn episode evaluation against a vLLM OpenAI-compatible server.
 
 Input:
